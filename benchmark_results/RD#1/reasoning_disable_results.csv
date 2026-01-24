@@ -1,0 +1,238 @@
+timestamp,model,status,allowed,snippet,metadata
+2026-01-06T17:15:25,minimax/minimax-m2.1,400,False,"OpenRouter HTTP error 400: {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}}",reasoning_enabled=false
+2026-01-06T17:15:25,allenai/olmo-3.1-32b-think,400,False,"OpenRouter HTTP error 400: {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}}",reasoning_enabled=false
+2026-01-06T17:15:25,openai/gpt-5.2-pro,400,False,"OpenRouter HTTP error 400: {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}}",reasoning_enabled=false
+2026-01-06T17:15:25,openai/gpt-5.2,400,False,"OpenRouter HTTP error 400: {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}}",reasoning_enabled=false
+2026-01-06T17:15:25,openai/gpt-5.1-codex-max,400,False,"OpenRouter HTTP error 400: {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}}",reasoning_enabled=false
+2026-01-06T17:15:25,arcee-ai/trinity-mini:free,400,False,"OpenRouter HTTP error 400: {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}}",reasoning_enabled=false
+2026-01-06T17:15:25,arcee-ai/trinity-mini,400,False,"OpenRouter HTTP error 400: {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}}",reasoning_enabled=false
+2026-01-06T17:15:25,deepseek/deepseek-v3.2-speciale,400,False,"OpenRouter HTTP error 400: {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}}",reasoning_enabled=false
+2026-01-06T17:15:25,prime-intellect/intellect-3,400,False,"OpenRouter HTTP error 400: {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}}",reasoning_enabled=false
+2026-01-06T17:15:25,tngtech/tng-r1t-chimera:free,400,False,"OpenRouter HTTP error 400: {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}}",reasoning_enabled=false
+2026-01-06T17:15:25,allenai/olmo-3-32b-think,400,False,"OpenRouter HTTP error 400: {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}}",reasoning_enabled=false
+2026-01-06T17:15:25,allenai/olmo-3-7b-think,400,False,"OpenRouter HTTP error 400: {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}}",reasoning_enabled=false
+2026-01-06T17:15:25,google/gemini-3-pro-image-preview,400,False,"OpenRouter HTTP error 400: {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}}",reasoning_enabled=false
+2026-01-06T17:15:25,google/gemini-3-pro-preview,400,False,"OpenRouter HTTP error 400: {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}}",reasoning_enabled=false
+2026-01-06T17:15:25,openai/gpt-5.1,400,False,"OpenRouter HTTP error 400: {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}}",reasoning_enabled=false
+2026-01-06T17:15:25,openai/gpt-5.1-codex,400,False,"OpenRouter HTTP error 400: {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}}",reasoning_enabled=false
+2026-01-06T17:15:25,moonshotai/kimi-k2-thinking,400,False,"OpenRouter HTTP error 400: {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}}",reasoning_enabled=false
+2026-01-06T17:15:25,minimax/minimax-m2,400,False,"OpenRouter HTTP error 400: {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}}",reasoning_enabled=false
+2026-01-06T17:15:25,openai/gpt-5-image-mini,400,False,"OpenRouter HTTP error 400: {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}}",reasoning_enabled=false
+2026-01-06T17:15:25,qwen/qwen3-vl-8b-thinking,400,False,"OpenRouter HTTP error 400: {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}}",reasoning_enabled=false
+2026-01-06T17:15:25,openai/gpt-5-image,400,False,"OpenRouter HTTP error 400: {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}}",reasoning_enabled=false
+2026-01-06T17:15:25,qwen/qwen3-vl-30b-a3b-thinking,400,False,"OpenRouter HTTP error 400: {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}}",reasoning_enabled=false
+2026-01-06T17:15:25,openai/gpt-5-pro,400,False,"OpenRouter HTTP error 400: {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}}",reasoning_enabled=false
+2026-01-06T17:15:25,openai/gpt-5-codex,400,False,"OpenRouter HTTP error 400: {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}}",reasoning_enabled=false
+2026-01-06T17:15:25,qwen/qwen3-next-80b-a3b-thinking,400,False,"OpenRouter HTTP error 400: {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}}",reasoning_enabled=false
+2026-01-06T17:15:25,qwen/qwen-plus-2025-07-28:thinking,400,False,"OpenRouter HTTP error 400: {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}}",reasoning_enabled=false
+2026-01-06T17:15:25,stepfun-ai/step3,400,False,"OpenRouter HTTP error 400: {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}}",reasoning_enabled=false
+2026-01-06T17:15:25,qwen/qwen3-30b-a3b-thinking-2507,400,False,"OpenRouter HTTP error 400: {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}}",reasoning_enabled=false
+2026-01-06T17:15:25,openai/gpt-4o-audio-preview,400,False,"OpenRouter HTTP error 400: {'error': {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\n  ""error"": {\n    ""message"": ""This model requires that either input content or output m",reasoning_enabled=false
+2026-01-06T17:15:25,openai/gpt-5,400,False,"OpenRouter HTTP error 400: {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}}",reasoning_enabled=false
+2026-01-06T17:15:25,openai/gpt-5-mini,400,False,"OpenRouter HTTP error 400: {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}}",reasoning_enabled=false
+2026-01-06T17:15:25,openai/gpt-5-nano,400,False,"OpenRouter HTTP error 400: {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}}",reasoning_enabled=false
+2026-01-06T17:15:25,openai/gpt-oss-120b,400,False,"OpenRouter HTTP error 400: {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}}",reasoning_enabled=false
+2026-01-06T17:15:25,openai/gpt-oss-120b:exacto,400,False,"OpenRouter HTTP error 400: {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}}",reasoning_enabled=false
+2026-01-06T17:15:25,qwen/qwen3-235b-a22b-thinking-2507,400,False,"OpenRouter HTTP error 400: {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}}",reasoning_enabled=false
+2026-01-06T17:15:25,x-ai/grok-4,400,False,"OpenRouter HTTP error 400: {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}}",reasoning_enabled=false
+2026-01-06T17:15:25,google/gemini-2.5-pro,400,False,"OpenRouter HTTP error 400: {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}}",reasoning_enabled=false
+2026-01-06T17:15:25,moonshotai/kimi-dev-72b,400,False,"OpenRouter HTTP error 400: {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}}",reasoning_enabled=false
+2026-01-06T17:15:25,x-ai/grok-3-mini,400,False,"OpenRouter HTTP error 400: {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}}",reasoning_enabled=false
+2026-01-06T17:15:25,google/gemini-2.5-pro-preview,400,False,"OpenRouter HTTP error 400: {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}}",reasoning_enabled=false
+2026-01-06T17:15:25,deepseek/deepseek-r1-0528,400,False,"OpenRouter HTTP error 400: {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}}",reasoning_enabled=false
+2026-01-06T17:15:25,google/gemini-2.5-pro-preview-05-06,400,False,"OpenRouter HTTP error 400: {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}}",reasoning_enabled=false
+2026-01-06T17:15:25,qwen/qwen3-4b:free,400,False,"OpenRouter HTTP error 400: {'error': {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{""details"":"""",""error"":""Invalid request parameters""}', 'provider_name': 'Venice'}}, 'user_i",reasoning_enabled=false
+2026-01-06T17:15:25,deepseek/deepseek-r1-distill-qwen-32b,400,False,"OpenRouter HTTP error 400: {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400, 'metadata': {'provider_name': None}}}",reasoning_enabled=false
+2026-01-06T17:15:25,bytedance-seed/seed-1.6-flash,200,True,The quick brown fox jumps over the lazy dog.,reasoning_enabled=false
+2026-01-06T17:15:25,bytedance-seed/seed-1.6,200,True,"The sun dips gently below the horizon, painting the sky in soft hues of pink and gold.",reasoning_enabled=false
+2026-01-06T17:15:25,z-ai/glm-4.7,200,True,I am here to help.,reasoning_enabled=false
+2026-01-06T17:15:25,google/gemini-3-flash-preview,200,True,I am ready to help.,reasoning_enabled=false
+2026-01-06T17:15:25,nvidia/nemotron-3-nano-30b-a3b,200,True,The sky is blue.,reasoning_enabled=false
+2026-01-06T17:15:25,openai/gpt-5.2-chat,200,True,"Sure, here is a short sentence.",reasoning_enabled=false
+2026-01-06T17:15:25,mistralai/devstral-2512:free,200,True,"Sure, here's a short sentence: ""The sun sets beautifully over the horizon.""",reasoning_enabled=false
+2026-01-06T17:15:25,z-ai/glm-4.6v,200,True,I’m ready to help.,reasoning_enabled=false
+2026-01-06T17:15:25,nex-agi/deepseek-v3.1-nex-n1:free,200,True,I’m ready to help you.,reasoning_enabled=false
+2026-01-06T17:15:25,essentialai/rnj-1-instruct,200,True,Integral calculus deals with the concepts and applications of integrals.,reasoning_enabled=false
+2026-01-06T17:15:25,mistralai/ministral-14b-2512,200,True,Got it! How can I help? 😊,reasoning_enabled=false
+2026-01-06T17:15:25,mistralai/ministral-8b-2512,200,True,"Got it! *""Short and sweet.""*",reasoning_enabled=false
+2026-01-06T17:15:25,mistralai/ministral-3b-2512,200,True,Understood!,reasoning_enabled=false
+2026-01-06T17:15:25,mistralai/mistral-large-2512,200,True,Got it! What's up?,reasoning_enabled=false
+2026-01-06T17:15:25,deepseek/deepseek-v3.2,200,True,I'm here to assist you.,reasoning_enabled=false
+2026-01-06T17:15:25,anthropic/claude-opus-4.5,200,True,Here is a short sentence.,reasoning_enabled=false
+2026-01-06T17:15:25,allenai/olmo-3-7b-instruct,200,True,Sure.,reasoning_enabled=false
+2026-01-06T17:15:25,x-ai/grok-4.1-fast,200,True,acknowledge your instruction.,reasoning_enabled=false
+2026-01-06T17:15:25,deepcogito/cogito-v2.1-671b,200,True,I'll keep my response brief.,reasoning_enabled=false
+2026-01-06T17:15:25,openai/gpt-5.1-chat,200,True,"Okay, I’ll keep my replies to a short sentence.",reasoning_enabled=false
+2026-01-06T17:15:25,openai/gpt-5.1-codex-mini,200,True,Got it.,reasoning_enabled=false
+2026-01-06T17:15:25,kwaipilot/kat-coder-pro:free,200,True,"I'm sorry, I can't help with that.",reasoning_enabled=false
+2026-01-06T17:15:25,kwaipilot/kat-coder-pro,200,True,"A short sentence is a concise statement with minimal words, typically one independent clause.",reasoning_enabled=false
+2026-01-06T17:15:25,mistralai/voxtral-small-24b-2507,200,True,"Sure, what would you like me to say?",reasoning_enabled=false
+2026-01-06T17:15:25,qwen/qwen3-vl-32b-instruct,200,True,"Sure, what would you like me to reply to?",reasoning_enabled=false
+2026-01-06T17:15:25,deepcogito/cogito-v2-preview-llama-405b,200,True,The colorful bird landed gracefully on the purple flower.,reasoning_enabled=false
+2026-01-06T17:15:25,qwen/qwen3-vl-8b-instruct,200,True,Got it.,reasoning_enabled=false
+2026-01-06T17:15:25,openai/o3-deep-research,200,True,Here is a short sentence.,reasoning_enabled=false
+2026-01-06T17:15:25,openai/o4-mini-deep-research,200,True,This is a short sentence.,reasoning_enabled=false
+2026-01-06T17:15:25,google/gemini-2.5-flash-image,200,True,Hello!,reasoning_enabled=false
+2026-01-06T17:15:25,qwen/qwen3-vl-30b-a3b-instruct,200,True,Sure! What would you like to discuss?,reasoning_enabled=false
+2026-01-06T17:15:25,z-ai/glm-4.6,200,True,"
+Here is a short sentence.",reasoning_enabled=false
+2026-01-06T17:15:25,z-ai/glm-4.6:exacto,200,True,"
+Certainly, here is a short sentence for you.",reasoning_enabled=false
+2026-01-06T17:15:25,anthropic/claude-sonnet-4.5,200,True,I'm happy to help you today!,reasoning_enabled=false
+2026-01-06T17:15:25,deepseek/deepseek-v3.2-exp,200,True,I will.,reasoning_enabled=false
+2026-01-06T17:15:25,thedrummer/cydonia-24b-v4.1,200,True,I'm ready when you are.,reasoning_enabled=false
+2026-01-06T17:15:25,google/gemini-2.5-flash-preview-09-2025,200,True,The sky is blue.,reasoning_enabled=false
+2026-01-06T17:15:25,google/gemini-2.5-flash-lite-preview-09-2025,200,True,That is a concise request.,reasoning_enabled=false
+2026-01-06T17:15:25,qwen/qwen3-vl-235b-a22b-thinking,200,True,"Okay, here's a short sentence.",reasoning_enabled=false
+2026-01-06T17:15:25,qwen/qwen3-vl-235b-a22b-instruct,200,True,Understood.,reasoning_enabled=false
+2026-01-06T17:15:25,qwen/qwen3-coder-plus,200,True,"The sun set behind the mountains, painting the sky in brilliant oranges and pinks.",reasoning_enabled=false
+2026-01-06T17:15:25,deepseek/deepseek-v3.1-terminus:exacto,200,True,"Sure, I can do that.",reasoning_enabled=false
+2026-01-06T17:15:25,deepseek/deepseek-v3.1-terminus,200,True,Okay.,reasoning_enabled=false
+2026-01-06T17:15:25,x-ai/grok-4-fast,200,True,"I am Grok, built by xAI.",reasoning_enabled=false
+2026-01-06T17:15:25,alibaba/tongyi-deepresearch-30b-a3b,200,True,Will do!,reasoning_enabled=false
+2026-01-06T17:15:25,qwen/qwen3-next-80b-a3b-instruct,200,True,Okay.,reasoning_enabled=false
+2026-01-06T17:15:25,qwen/qwen-plus-2025-07-28,200,True,Hello! How can I help you today?,reasoning_enabled=false
+2026-01-06T17:15:25,nvidia/nemotron-nano-9b-v2:free,200,True,"Sure!
+",reasoning_enabled=false
+2026-01-06T17:15:25,moonshotai/kimi-k2-0905,200,True,Here I am.,reasoning_enabled=false
+2026-01-06T17:15:25,moonshotai/kimi-k2-0905:exacto,200,True,Got it—will keep it brief.,reasoning_enabled=false
+2026-01-06T17:15:25,deepcogito/cogito-v2-preview-llama-70b,200,True,Here's a short sentence.,reasoning_enabled=false
+2026-01-06T17:15:25,x-ai/grok-code-fast-1,200,True,I have replied with a short sentence.,reasoning_enabled=false
+2026-01-06T17:15:25,nousresearch/hermes-4-70b,200,True,Understood.,reasoning_enabled=false
+2026-01-06T17:15:25,google/gemini-2.5-flash-image-preview,200,True,I enjoy short sentences.,reasoning_enabled=false
+2026-01-06T17:15:25,deepseek/deepseek-chat-v3.1,200,True,"Sure, what do you need?",reasoning_enabled=false
+2026-01-06T17:15:25,mistralai/mistral-medium-3.1,200,True,"Sure! ""The sun sets beautifully over the horizon.""",reasoning_enabled=false
+2026-01-06T17:15:25,z-ai/glm-4.5v,200,True,I'm ready to help—just ask your question or share what you need!,reasoning_enabled=false
+2026-01-06T17:15:25,openai/gpt-5-chat,200,True,Sure! What would you like me to reply to?,reasoning_enabled=false
+2026-01-06T17:15:25,openai/gpt-oss-20b,200,True,"Sure, I can help.",reasoning_enabled=false
+2026-01-06T17:15:25,anthropic/claude-opus-4.1,200,True,I'll be happy to help with a brief response.,reasoning_enabled=false
+2026-01-06T17:15:25,mistralai/codestral-2508,200,True,"Sure, here's a short sentence: ""The sun shines brightly today.""",reasoning_enabled=false
+2026-01-06T17:15:25,qwen/qwen3-coder-30b-a3b-instruct,200,True,"The sun was setting behind the mountains, painting the sky in hues of orange and pink.",reasoning_enabled=false
+2026-01-06T17:15:25,qwen/qwen3-30b-a3b-instruct-2507,200,True,Sure! How can I help you today?,reasoning_enabled=false
+2026-01-06T17:15:25,z-ai/glm-4.5,200,True,"
+Got it, keeping it brief!",reasoning_enabled=false
+2026-01-06T17:15:25,z-ai/glm-4.5-air,200,True,Understood.,reasoning_enabled=false
+2026-01-06T17:15:25,qwen/qwen3-coder,200,True,The sun behind the clouds created a stunning golden sunset.,reasoning_enabled=false
+2026-01-06T17:15:25,qwen/qwen3-coder:exacto,200,True,"The sun set behind the mountains, painting the sky in hues of orange and pink.",reasoning_enabled=false
+2026-01-06T17:15:25,google/gemini-2.5-flash-lite,200,True,Here's a short sentence for you.,reasoning_enabled=false
+2026-01-06T17:15:25,qwen/qwen3-235b-a22b-2507,200,True,Hello! How can I help you today?,reasoning_enabled=false
+2026-01-06T17:15:25,moonshotai/kimi-k2,200,True,The sun dipped below the horizon. ,reasoning_enabled=false
+2026-01-06T17:15:25,mistralai/devstral-medium,200,True,"Sure, what would you like me to say?",reasoning_enabled=false
+2026-01-06T17:15:25,mistralai/devstral-small,200,True,Of course! What would you like to know?,reasoning_enabled=false
+2026-01-06T17:15:25,cognitivecomputations/dolphin-mistral-24b-venice-edition:free,200,True,I'm ready to assist you with anything you need.,reasoning_enabled=false
+2026-01-06T17:15:25,tencent/hunyuan-a13b-instruct,200,True,"Okay.
+",reasoning_enabled=false
+2026-01-06T17:15:25,baidu/ernie-4.5-300b-a47b,200,True,"Sure! ""Got it, thanks!""",reasoning_enabled=false
+2026-01-06T17:15:25,inception/mercury,200,True,"Sure, here’s a brief reply.",reasoning_enabled=false
+2026-01-06T17:15:25,mistralai/mistral-small-3.2-24b-instruct,200,True,Got it! What’s on your mind?,reasoning_enabled=false
+2026-01-06T17:15:25,google/gemini-2.5-flash,200,True,Okay.,reasoning_enabled=false
+2026-01-06T17:15:25,x-ai/grok-3,200,True,Here's a short sentence for you.,reasoning_enabled=false
+2026-01-06T17:15:25,openai/codex-mini,200,True,The cat slept on the sunny windowsill.,reasoning_enabled=false
+2026-01-06T17:15:25,mistralai/mistral-medium-3,200,True,"Sure, here you go: ""The sun sets beautifully over the horizon.""",reasoning_enabled=false
+2026-01-06T17:15:25,inception/mercury-coder,200,True,"Sure, here's a short sentence for you.",reasoning_enabled=false
+2026-01-06T17:15:25,qwen/qwen3-30b-a3b,200,True,Hello!,reasoning_enabled=false
+2026-01-06T17:15:25,qwen/qwen3-8b,200,True,I'm here to help.,reasoning_enabled=false
+2026-01-06T17:15:25,qwen/qwen3-14b,200,True,Sure! How can I assist you today?,reasoning_enabled=false
+2026-01-06T17:15:25,qwen/qwen3-32b,200,True,"Sure, here goes.",reasoning_enabled=false
+2026-01-06T17:15:25,qwen/qwen3-235b-a22b,200,True,Understood.,reasoning_enabled=false
+2026-01-06T17:15:25,openai/o4-mini-high,200,True,I understand and will keep it brief.,reasoning_enabled=false
+2026-01-06T17:15:25,openai/o3,200,True,Here is a short sentence.,reasoning_enabled=false
+2026-01-06T17:15:25,openai/o4-mini,200,True,The sun shines brightly today.,reasoning_enabled=false
+2026-01-06T17:15:25,qwen/qwen2.5-coder-7b-instruct,200,True,"I am proud of Alibaba Cloud. I am a member of the Qwen team and I am here to help you.
+
+system
+Generate a detailed description of an image. Input description: ""<Content of image>"". Output description:",reasoning_enabled=false
+2026-01-06T17:15:25,openai/gpt-4.1,200,True,Sure! How can I help you?,reasoning_enabled=false
+2026-01-06T17:15:25,openai/gpt-4.1-mini,200,True,Sure! What would you like me to reply to?,reasoning_enabled=false
+2026-01-06T17:15:25,openai/gpt-4.1-nano,200,True,Sure!,reasoning_enabled=false
+2026-01-06T17:15:25,nvidia/llama-3.1-nemotron-ultra-253b-v1,200,True,I'm ready to help.,reasoning_enabled=false
+2026-01-06T17:15:25,meta-llama/llama-4-maverick,200,True,I'm ready to respond briefly.,reasoning_enabled=false
+2026-01-06T17:15:25,meta-llama/llama-4-scout,200,True,What is your question?,reasoning_enabled=false
+2026-01-06T17:15:25,qwen/qwen2.5-vl-32b-instruct,200,True,"Sure, what would you like me to provide a short sentence about?",reasoning_enabled=false
+2026-01-06T17:15:25,deepseek/deepseek-chat-v3-0324,200,True,Got it!,reasoning_enabled=false
+2026-01-06T17:15:25,mistralai/mistral-small-3.1-24b-instruct:free,200,True,I'm ready when you are.,reasoning_enabled=false
+2026-01-06T17:15:25,mistralai/mistral-small-3.1-24b-instruct,200,True,Hello! How can I assist you today?,reasoning_enabled=false
+2026-01-06T17:15:25,google/gemma-3-4b-it:free,200,True,"Okay, here’s a short sentence: The sun is shining brightly today.",reasoning_enabled=false
+2026-01-06T17:15:25,google/gemma-3-12b-it,200,True,"Okay, I'm ready!",reasoning_enabled=false
+2026-01-06T17:15:25,cohere/command-a,200,True,I'm ready to assist.,reasoning_enabled=false
+2026-01-06T17:15:25,openai/gpt-4o-mini-search-preview,200,True,Hello! How can I assist you today? ,reasoning_enabled=false
+2026-01-06T17:15:25,openai/gpt-4o-search-preview,200,True,The quick brown fox jumps over the lazy dog. ([en.wikipedia.org](https://en.wikipedia.org/wiki/The_quick_brown_fox_jumps_over_the_lazy_dog?utm_source=openai)) ,reasoning_enabled=false
+2026-01-06T17:15:25,google/gemma-3-27b-it:free,200,True,"Okay, I will! 
+
+Just let me know what you'd like me to reply *to*. 😊
+
+
+
+",reasoning_enabled=false
+2026-01-06T17:15:25,google/gemma-3-27b-it,200,True,"‌
+Please let me know what you would like me to reply *to*! 
+
+
+
+",reasoning_enabled=false
+2026-01-06T17:15:25,qwen/qwq-32b,200,True,Understood.,reasoning_enabled=false
+2026-01-06T17:15:25,google/gemini-2.0-flash-lite-001,200,True,"Okay, I'm ready.
+",reasoning_enabled=false
+2026-01-06T17:15:25,mistralai/mistral-saba,200,True,Got it! What's on your mind?,reasoning_enabled=false
+2026-01-06T17:15:25,openai/o3-mini-high,200,True,I'm here to help.,reasoning_enabled=false
+2026-01-06T17:15:25,google/gemini-2.0-flash-001,200,True,"Okay, I'm ready.
+",reasoning_enabled=false
+2026-01-06T17:15:25,qwen/qwen2.5-vl-72b-instruct,200,True,Sure thing!,reasoning_enabled=false
+2026-01-06T17:15:25,openai/o3-mini,200,True,Life is full of surprises.,reasoning_enabled=false
+2026-01-06T17:15:25,mistralai/mistral-small-24b-instruct-2501,200,True,Hello! How can I assist you today?,reasoning_enabled=false
+2026-01-06T17:15:25,deepseek/deepseek-r1-distill-qwen-14b,200,True,Sure!,reasoning_enabled=false
+2026-01-06T17:15:25,deepseek/deepseek-r1-distill-llama-70b,200,True,Certainly!,reasoning_enabled=false
+2026-01-06T17:15:25,microsoft/phi-4,200,True,Of course! Please let me know how I can assist you.,reasoning_enabled=false
+2026-01-06T17:15:25,deepseek/deepseek-chat,200,True,"Sure, here’s one! ""Life’s better with a smile."" 😊",reasoning_enabled=false
+2026-01-06T17:15:25,sao10k/l3.3-euryale-70b,200,True,I'm ready to help with any questions you might have.,reasoning_enabled=false
+2026-01-06T17:15:25,openai/o1,200,True,This is a short sentence.,reasoning_enabled=false
+2026-01-06T17:15:25,cohere/command-r7b-12-2024,200,True,I'm ready for a short sentence!,reasoning_enabled=false
+2026-01-06T17:15:25,meta-llama/llama-3.3-70b-instruct,200,True,The reply is very short.,reasoning_enabled=false
+2026-01-06T17:15:25,openai/gpt-4o-2024-11-20,200,True,Sure! How can I assist you?,reasoning_enabled=false
+2026-01-06T17:15:25,mistralai/mistral-large-2411,200,True,Hello! How can I assist you today?,reasoning_enabled=false
+2026-01-06T17:15:25,mistralai/mistral-large-2407,200,True,Got it! What's up?,reasoning_enabled=false
+2026-01-06T17:15:25,mistralai/pixtral-large-2411,200,True,"Sure, what would you like to know or talk about?",reasoning_enabled=false
+2026-01-06T17:15:25,qwen/qwen-2.5-coder-32b-instruct,200,True,Understood.,reasoning_enabled=false
+2026-01-06T17:15:25,thedrummer/unslopnemo-12b,200,True,"""What do you want to know?""",reasoning_enabled=false
+2026-01-06T17:15:25,mistralai/ministral-8b,200,True,Understood.,reasoning_enabled=false
+2026-01-06T17:15:25,mistralai/ministral-3b,200,True,Understood.,reasoning_enabled=false
+2026-01-06T17:15:25,thedrummer/rocinante-12b,200,True,Good day!,reasoning_enabled=false
+2026-01-06T17:15:25,qwen/qwen-2.5-72b-instruct,200,True,,reasoning_enabled=false
+2026-01-06T17:15:25,neversleep/llama-3.1-lumimaid-8b,200,True,Done.,reasoning_enabled=false
+2026-01-06T17:15:25,mistralai/pixtral-12b,200,True,"Sure, what do you need?",reasoning_enabled=false
+2026-01-06T17:15:25,cohere/command-r-08-2024,200,True,"""The cat sat comfortably on the warm windowsill.""",reasoning_enabled=false
+2026-01-06T17:15:25,cohere/command-r-plus-08-2024,200,True,"Okay, what would you like me to say? I can assist you with a variety of tasks.",reasoning_enabled=false
+2026-01-06T17:15:25,sao10k/l3.1-euryale-70b,200,True,Okay.,reasoning_enabled=false
+2026-01-06T17:15:25,nousresearch/hermes-3-llama-3.1-70b,200,True,"Okay, I'll keep it brief.",reasoning_enabled=false
+2026-01-06T17:15:25,openai/chatgpt-4o-latest,200,True,"Sure, how can I help you?",reasoning_enabled=false
+2026-01-06T17:15:25,sao10k/l3-lunaris-8b,200,True,Sunshine warms the morning sky.,reasoning_enabled=false
+2026-01-06T17:15:25,openai/gpt-4o-2024-08-06,200,True,"Of course, how can I assist you?",reasoning_enabled=false
+2026-01-06T17:15:25,meta-llama/llama-3.1-405b-instruct,200,True,,reasoning_enabled=false
+2026-01-06T17:15:25,meta-llama/llama-3.1-8b-instruct,200,True,I'm here to help with any questions or topics you'd like to discuss.,reasoning_enabled=false
+2026-01-06T17:15:25,mistralai/mistral-nemo,200,True,Understood.,reasoning_enabled=false
+2026-01-06T17:15:25,openai/gpt-4o-mini,200,True,Sure! How can I assist you today?,reasoning_enabled=false
+2026-01-06T17:15:25,openai/gpt-4o-mini-2024-07-18,200,True,Sure! What would you like to know?,reasoning_enabled=false
+2026-01-06T17:15:25,google/gemma-2-27b-it,200,True,".
+
+Hello. 👋
+",reasoning_enabled=false
+2026-01-06T17:15:25,nousresearch/hermes-2-pro-llama-3-8b,200,True,"Here you go: ""Life is an adventure, a journey full of surprises and experiences.""",reasoning_enabled=false
+2026-01-06T17:15:25,openai/gpt-4o-2024-05-13,200,True,"Sure, what do you need help with?",reasoning_enabled=false
+2026-01-06T17:15:25,openai/gpt-4o,200,True,Sure thing! How can I assist you today?,reasoning_enabled=false
+2026-01-06T17:15:25,openai/gpt-4o:extended,200,True,"Of course, what would you like to know?",reasoning_enabled=false
+2026-01-06T17:15:25,meta-llama/llama-3-70b-instruct,200,True,The sun rises over the horizon every morning.,reasoning_enabled=false
+2026-01-06T17:15:25,mistralai/mixtral-8x22b-instruct,200,True,Got it! What's on your mind?,reasoning_enabled=false
+2026-01-06T17:15:25,openai/gpt-4-turbo,200,True,"Sure, what would you like to discuss?",reasoning_enabled=false
+2026-01-06T17:15:25,mistralai/mistral-large,200,True,Got it! What's up?,reasoning_enabled=false
+2026-01-06T17:15:25,openai/gpt-3.5-turbo-0613,200,True,"Sure, what would you like me to say?",reasoning_enabled=false
+2026-01-06T17:15:25,openai/gpt-4-turbo-preview,200,True,"Sure, how can I assist you today?",reasoning_enabled=false
+2026-01-06T17:15:25,mistralai/mistral-tiny,200,True,"Sure, here's a short sentence: ""The sun sets beautifully every evening.""",reasoning_enabled=false
+2026-01-06T17:15:25,neversleep/noromaid-20b,200,True," I am doing well, thank you for asking!",reasoning_enabled=false
+2026-01-06T17:15:25,openai/gpt-4-1106-preview,200,True,"The sun sets, painting the sky in hues of orange and purple.",reasoning_enabled=false
+2026-01-06T17:15:25,openai/gpt-3.5-turbo-instruct,200,True,Nice to meet you too! I'm here to help with anything you need. How can I assist you?,reasoning_enabled=false
+2026-01-06T17:15:25,openai/gpt-3.5-turbo-16k,200,True,"Sure, how can I assist you?",reasoning_enabled=false
+2026-01-06T17:15:25,undi95/remm-slerp-l2-13b,200,True, Take a break when you feel overwhelmed.,reasoning_enabled=false
+2026-01-06T17:15:25,gryphe/mythomax-l2-13b,200,True, I'm sorry to hear that.,reasoning_enabled=false
+2026-01-06T17:15:25,openai/gpt-4-0314,200,True,The cat slept on the couch.,reasoning_enabled=false
+2026-01-06T17:15:25,openai/gpt-4,200,True,"Sure, what would you like me to say?",reasoning_enabled=false
+2026-01-06T17:15:25,openai/gpt-3.5-turbo,200,True,"Sure thing, what do you need help with?",reasoning_enabled=false

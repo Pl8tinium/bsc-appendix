@@ -1,0 +1,654 @@
+sample_index,output_length,prediction,true_answer,latency,theoretic_cost,actual_cost,metadata
+82616,471,True,True,235.2035,0.0114,0.0114,"models=x-ai/grok-4.1-fast
+expected_length=486
+dataset=proofwriter
+aborted=False
+
+reasoning=### Explanation
+- **Gary's attributes**: Round, nice, big (from ""Most  people see Gary as round, albeit nice and big at the same time.”).- **Relevant rule**: round, kind people are rough. Gary (round, nice≈)nice → kind per synonyms/context) → round + kind = rough (direct rule) Thus Gary is rough. No contradictions found. **True** More precisely, Gary's roundness + niceness → feeling blue → kind, +圆Gary's roundness and niceness make him blue, hence kind, so rough. The
+
+chunks=[
+    x-ai/grok-4.1-fast_Turn1: ""### Explanation\n- **Gary's attributes**: Round, nice, big (from \""Most "",
+    x-ai/grok-4.1-fast_Turn2: "" people see Gary as round, albeit nice and big at the same time.”)."" | metadata: ""meta_talk"": ""Finishing the attributes bullet point without exceeding 70 chars (this continuation: 66 chars). Next chunk will apply rules."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn3: ""- **Relevant rule**: round, kind people are rough. Gary (round, nice≈)"" | metadata: ""meta_talk"": ""Continuing the structured explanation with rule application, assuming 'nice' aligns with 'kind' contextually."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn4: ""nice → kind per synonyms/context) → round + kind = rough (direct rule)"" | metadata: ""meta_talk"": ""Continuing reasoning from mid-sentence without repetition."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn5: "" Thus Gary is rough. No contradictions found. **True**"" | metadata: ""meta_talk"": ""Continuing reasoning towards conclusion without repetition. Char count: continuation=52."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn6: """" | metadata: ""meta_talk"": ""Reasoning fully complete with no contradictions; chain confirms Gary meets all criteria for being rough."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn7: """" | metadata: ""meta_talk"": ""Prior reasoning complete with no contradictions; statement confirmed True via direct rule application and synonymy of nice/kind. No further extension needed."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn8: """" | metadata: ""meta_talk"": ""Reasoning is complete with no further extensions needed. The statement evaluates to True."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn9: "" More precisely, Gary's roundness + niceness → feeling blue → kind, +圆"" | metadata: ""meta_talk"": ""Refining the chain: nice implies nice to others in context."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn10: ""Gary's roundness and niceness make him blue, hence kind, so rough. The"" | metadata: ""meta_talk"": ""Adhering to chain: round + nice → blue → kind + round → rough. No issues."", ""schema_retries"": ""0""
+]"
+576283,305,False,False,87.6859,0.0056,0.0056,"models=x-ai/grok-4.1-fast
+expected_length=362
+dataset=proofwriter
+aborted=False
+
+reasoning=**False**
+
+The theory explicitly states ""The cow visits the lion,"" which directly contradicts the statement 'The cow does not visit the lion No conditional rules alter this factual assertion in the theory. Thus, the statement is False.The theory directly states that the cow visits the lion, contradicting
+
+chunks=[
+    x-ai/grok-4.1-fast_Turn1: ""**False**\n\nThe theory explicitly states \""The cow visits the lion,\"" whi"",
+    x-ai/grok-4.1-fast_Turn2: ""ch directly contradicts the statement 'The cow does not visit the lion"" | metadata: ""meta_talk"": ""Completing the explanation."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn3: """" | metadata: ""meta_talk"": ""Reasoning is complete; direct contradiction confirms the falsehood. No further extension needed."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn4: "" No conditional rules alter this factual assertion in the theory."" | metadata: ""meta_talk"": ""Previous reasoning complete; no further inference needed from rules as it's a direct contradiction. Full eval: False."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn5: "" Thus, the statement is False."" | metadata: ""meta_talk"": ""Reasoning complete; direct contradiction confirms falsity."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn6: ""The theory directly states that the cow visits the lion, contradicting"" | metadata: ""meta_talk"": ""Continuing the reasoning strictly per instructions."", ""schema_retries"": ""0""
+]"
+370416,476,True,True,178.8542,0.0085,0.0085,"models=x-ai/grok-4.1-fast
+expected_length=541
+dataset=proofwriter
+aborted=False
+
+reasoning=**Explanation:**  
+From the facts, the tiger visits the rabbit.  
+By the second rule (if someone visits the rabbit then they chase the tiger), the tiger chases the tiger. By rule 1, since tiger chases tiger, tiger chases the rabbit. By rule 6, tiger eats tiger. Therefore, the虎tiger eats the tiger. Thus, the statement is True. The other facts like the cow and rabbit interactions do not impact the conclusion. **True**The chain confirms the tiger eats the tiger. ANSWER[True]
+
+chunks=[
+    x-ai/grok-4.1-fast_Turn1: ""**Explanation:**  \nFrom the facts, the tiger visits the rabbit.  \nBy t"",
+    x-ai/grok-4.1-fast_Turn2: ""he second rule (if someone visits the rabbit then they chase the tiger"" | metadata: ""meta_talk"": ""Continuing inference chain precisely from 'By t'; char count: 69."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn3: ""), the tiger chases the tiger. By rule 1, since tiger chases tiger, t"" | metadata: ""meta_talk"": ""Continuing inference chain precisely from cutoff."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn4: ""iger chases the rabbit. By rule 6, tiger eats tiger. Therefore, the虎"" | metadata: ""meta_talk"": ""Concluding the reasoning to show the statement is True."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn5: ""tiger eats the tiger. Thus, the statement is True."" | metadata: ""meta_talk"": ""Concluding the proof."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn6: """" | metadata: ""meta_talk"": ""Reasoning chain complete; statement verified as True with no further deductions needed."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn7: "" The other facts like the cow and rabbit interactions do not impact"" | metadata: ""meta_talk"": ""Reasoning fully concludes the statement is True. No further chains needed."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn8: "" the conclusion. **True**"" | metadata: ""meta_talk"": ""Completing the reasoning fragment without repetition."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn9: ""The chain confirms the tiger eats the tiger. ANSWER[True]"" | metadata: ""meta_talk"": ""Previous reasoning holds; tiger visits rabbit implies tiger chases tiger, then chases rabbit, then eats tiger."", ""schema_retries"": ""0""
+]"
+57062,118,True,True,27.6052,0.0018,0.0018,"models=x-ai/grok-4.1-fast
+expected_length=115
+dataset=proofwriter
+aborted=False
+reasoning=**Explanation:** The given theory includes the explicit fact ""Gary is white. Thus, the statement is True. ANSWER[True]
+
+chunks=[
+    x-ai/grok-4.1-fast_Turn1: ""**Explanation:** The given theory includes the explicit fact \""Gary is "",
+    x-ai/grok-4.1-fast_Turn2: ""white. Thus, the statement is True. ANSWER[True]"" | metadata: ""meta_talk"": """", ""schema_retries"": ""0""
+]"
+99831,135,False,False,27.8992,0.0025,0.0025,"models=x-ai/grok-4.1-fast
+expected_length=182
+dataset=proofwriter
+aborted=False
+
+reasoning=**Explanation:**  
+From the theory:  
+- Dave is young.  
+- Young people are smart, so Dave is smart. Statement is False. ANSWER[False].
+
+chunks=[
+    x-ai/grok-4.1-fast_Turn1: ""**Explanation:**  \nFrom the theory:  \n- Dave is young.  \n- Young peopl"",
+    x-ai/grok-4.1-fast_Turn2: ""e are smart, so Dave is smart. Statement is False. ANSWER[False]."" | metadata: ""meta_talk"": """", ""schema_retries"": ""0""
+]"
+23665,543,False,False,142.4519,0.0073,0.0073,"models=x-ai/grok-4.1-fast
+expected_length=569
+dataset=proofwriter
+aborted=False
+reasoning=The given facts explicitly state that ""The bear is not red,"" which directly contradicts the statement. Therefore, the statement is False. The rules do not contradict or override the explicit fact that the熊isnot red. No inference from the rules can override this direct fact, as the facts are the foundational truths that supersede any rule-based inferences. Thus, the statement 'The bear is red' is False. Even examining the rules confirms no entailment of redness, as theydo not imply redness for the bear. The statement contradicts the fact.
+
+chunks=[
+    x-ai/grok-4.1-fast_Turn1: ""The given facts explicitly state that \""The bear is not red,\"" which dir"",
+    x-ai/grok-4.1-fast_Turn2: ""ectly contradicts the statement. Therefore, the statement is False."" | metadata: ""meta_talk"": ""Direct contradiction from facts; no rules needed."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn3: "" The rules do not contradict or override the explicit fact that the熊is"" | metadata: ""meta_talk"": ""Reasoning complete; minor extension for thoroughness."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn4: ""not red. No inference from the rules can override this direct fact, as"" | metadata: ""meta_talk"": ""Final determination: False."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn5: "" the facts are the foundational truths that supersede any rule-based"" | metadata: ""meta_talk"": ""Continuing reasoning seamlessly; aiming to conclude soon."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn6: "" inferences. Thus, the statement 'The bear is red' is False."" | metadata: ""meta_talk"": ""This continuation completes the reasoning chain."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn7: """" | metadata: ""meta_talk"": ""Reasoning fully complete in prior segment; no truncation occurred. Statement definitively False due to direct contradiction."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn8: "" Even examining the rules confirms no entailment of redness, as they"" | metadata: ""meta_talk"": ""Reasoning complete; direct contradiction suffices. No repetition of prior content."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn9: ""do not imply redness for the bear. The statement contradicts the fact."" | metadata: ""meta_talk"": """", ""schema_retries"": ""0""
+]"
+225193,615,False,False,244.9886,0.0121,0.0121,"models=x-ai/grok-4.1-fast
+expected_length=661
+dataset=proofwriter
+aborted=False
+
+reasoning=### Explanation
+The theory provides the following relevant facts and rules: Bear likes bald eagle → eats lion. So the statement is False. No other facts or rules, such as the lion eating the bear, override. The bear therefore eats the lion, so the statement is False. **False**The lion eating the bear does not prevent the bear eating the lion., confirming the bear eats the lion. Thus the statement is False. No facts or rules contradict the deduction that the bear eats thelion. Therefore, the statement 'The bear does not eat the lion' is **FThe bear likes the bald eagle (fact), so eats the lion (rule 3). Thus,
+
+chunks=[
+    x-ai/grok-4.1-fast_Turn1: ""### Explanation\nThe theory provides the following relevant facts and r"",
+    x-ai/grok-4.1-fast_Turn2: ""ules: Bear likes bald eagle → eats lion. So the statement is False."" | metadata: ""meta_talk"": ""Concluding the analysis cleanly."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn3: "" No other facts or rules, such as the lion eating the bear, override."" | metadata: ""meta_talk"": ""Extending with verification of no contradictions; full reasoning confirms False."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn4: "" The bear therefore eats the lion, so the statement is False."" | metadata: ""meta_talk"": ""Reasoning continuation towards final answer. No violations."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn5: "" **False**"" | metadata: ""meta_talk"": ""Reasoning complete; prior content fully addresses the inference without repetition needed."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn6: ""The lion eating the bear does not prevent the bear eating the lion."" | metadata: ""meta_talk"": ""Clarifying that no other elements override the deduction."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn7: "", confirming the bear eats the lion. Thus the statement is False."" | metadata: ""meta_talk"": ""Reasoning extension complete; conclusion unchanged."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn8: "" No facts or rules contradict the deduction that the bear eats the"" | metadata: ""meta_talk"": ""Reasoning is solid; extending for emphasis on lack of contradictions."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn9: ""lion. Therefore, the statement 'The bear does not eat the lion' is **F"" | metadata: ""meta_talk"": ""No tools needed; finalizing explanation within limits."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn10: ""The bear likes the bald eagle (fact), so eats the lion (rule 3). Thus,"" | metadata: ""meta_talk"": ""Adhering to instructions and schema; no tools needed."", ""schema_retries"": ""0""
+]"
+118095,425,False,False,244.7099,0.0121,0.0121,"models=x-ai/grok-4.1-fast
+expected_length=478
+dataset=proofwriter
+aborted=False
+reasoning=The given theory includes a direct fact stating ""The cat likes the cow Thus, it directly contradicts the statement, which is therefore False. it directly contradicts the statement, which is therefore False. **False** No rules in the theory negate the explicit fact that the cat likes the cow. Thus, the statement directly contradicts the theory and is **FThe statement directly contradicts the fact 'The cat likes the cow.' 1
+
+chunks=[
+    x-ai/grok-4.1-fast_Turn1: ""The given theory includes a direct fact stating \""The cat likes the cow"",
+    x-ai/grok-4.1-fast_Turn2: "" Thus, it directly contradicts the statement, which is therefore False"" | metadata: ""meta_talk"": ""Reasoning continuation to conclusion."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn3: ""."" | metadata: ""meta_talk"": ""Reasoning is complete with direct contradiction; no further inference from rules needed."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn4: "" it directly contradicts the statement, which is therefore False."" | metadata: ""meta_talk"": ""Completing the truncated sentence seamlessly. Reasoning concludes here as direct contradiction is clear; no further deductions needed."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn5: "" **False**"" | metadata: ""meta_talk"": ""Reasoning is complete due to direct contradiction; no further inference needed."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn6: """" | metadata: ""meta_talk"": ""Previous response already reached the conclusion with explanation and final answer. No further reasoning needed."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn7: """" | metadata: ""meta_talk"": ""Previous response concluded correctly despite minor repetition; no further extension needed."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn8: """" | metadata: ""meta_talk"": ""Previous response already reaches the correct conclusion with direct contradiction; no further extension needed."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn9: """" | metadata: ""meta_talk"": ""Reasoning already concluded with the direct contradiction; no further extension required."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn10: "" No rules in the theory negate the explicit fact that the cat likes t"" | metadata: ""meta_talk"": ""Previous response complete but repetitive; extending to affirm no rules override the direct fact."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn11: ""he cow. Thus, the statement directly contradicts the theory and is **F"" | metadata: ""meta_talk"": ""Direct fact contradiction; no tools needed. Ending reasoning here."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn12: ""The statement directly contradicts the fact 'The cat likes the cow.' 1"" | metadata: ""meta_talk"": ""No new facts or rules alter the direct contradiction."", ""schema_retries"": ""0""
+]"
+496697,555,False,False,242.7409,0.0128,0.0128,"models=x-ai/grok-4.1-fast
+expected_length=639
+dataset=proofwriter
+aborted=False
+
+reasoning=**Explanation:**  
+From the facts and rules, we can deduce that the squirrel is nice via visiting lion (rules 1,5). Statement False.Dog sees mouse & mouse sees dog (facts) → rule 1: dog visits lion → rule 5: dog is nice. Dog is rough → rule 8: dog sees squirrel. Dog seessquirrel (rule 8), and dog is nice, so rule 6: squirrel sees mouse. Since mouse sees dog → rule 1: squirrel visits lion → rule 5: nice. The squirrel is nice. Therefore, the statement 'The squirrel is not nice' is False. **False**Squirrel is nice, so 'not nice' is False. ANSWER[False]
+
+chunks=[
+    x-ai/grok-4.1-fast_Turn1: ""**Explanation:**  \nFrom the facts and rules, we can deduce that the sq"",
+    x-ai/grok-4.1-fast_Turn2: ""uirrel is nice via visiting lion (rules 1,5). Statement False."" | metadata: ""meta_talk"": ""Key chain: dog rough→sees squirrel (8); dog sees mouse+mouse sees dog→dog visits lion (1)→dog nice (5); dog nice+sees squirrel→squirrel sees mouse (6); squirrel sees mouse+mouse sees dog→squirrel visits lion (1)→squirrel nice (5)."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn3: ""Dog sees mouse & mouse sees dog (facts) → rule 1: dog visits lion → r"" | metadata: ""meta_talk"": ""Detailing the deduction chain supporting that squirrel visits lion hence nice."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn4: ""ule 5: dog is nice. Dog is rough → rule 8: dog sees squirrel. Dog sees"" | metadata: ""meta_talk"": ""Continuing the logical deduction chain without exceeding length limits."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn5: ""squirrel (rule 8), and dog is nice, so rule 6: squirrel sees mouse. S"" | metadata: ""meta_talk"": ""Continuing reasoning from 'Dog sees' mid-sentence."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn6: ""ince mouse sees dog → rule 1: squirrel visits lion → rule 5: nice. The"" | metadata: ""meta_talk"": ""Completing the chain: squirrel sees mouse + mouse sees dog triggers rule 1, leading to nice."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn7: "" squirrel is nice. Therefore, the statement 'The squirrel is not nice'"" | metadata: ""meta_talk"": ""Finalizing the contradiction proof."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn8: "" is False. **False**"" | metadata: ""meta_talk"": """", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn9: ""Squirrel is nice, so 'not nice' is False. ANSWER[False]"" | metadata: ""meta_talk"": ""Prior reasoning confirms squirrel visits lion via chain, making it nice."", ""schema_retries"": ""0""
+]"
+445683,269,False,False,78.1574,0.0040,0.0040,"models=x-ai/grok-4.1-fast
+expected_length=313
+dataset=proofwriter
+aborted=False
+
+reasoning=### Explanation
+- Gary is red (premise 3).
+- All red things are green (premise 9): Gary green & red → green-red thing (10): quiet. → all quiet things are young (11) → Gary young → 'Gary is not young' Thus, Gary is young, so the statement 'Gary is not young' is False.  
+
+chunks=[
+    x-ai/grok-4.1-fast_Turn1: ""### Explanation\n- Gary is red (premise 3).\n- All red things are green "",
+    x-ai/grok-4.1-fast_Turn2: ""(premise 9): Gary green & red → green-red thing (10): quiet."" | metadata: ""meta_talk"": """", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn3: "" → all quiet things are young (11) → Gary young → 'Gary is not young' "" | metadata: ""meta_talk"": ""This concludes the reasoning chain, showing Gary must be young, so the statement is False."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn4: ""Thus, Gary is young, so the statement 'Gary is not young' is False.  "" | metadata: ""meta_talk"": ""No additional thoughts."", ""schema_retries"": ""0""
+]"
+570184,200,True,True,76.2814,0.0047,0.0047,"models=x-ai/grok-4.1-fast
+expected_length=254
+dataset=proofwriter
+aborted=False
+reasoning=**Explanation**: The given theory explicitly states as a fact that ""The cat eats the squirrel.` The statement is therefore **True**.Theory directly states the fact. The statement is True. ANSWER[True]
+
+chunks=[
+    x-ai/grok-4.1-fast_Turn1: ""**Explanation**: The given theory explicitly states as a fact that \""Th"",
+    x-ai/grok-4.1-fast_Turn2: ""e cat eats the squirrel.` The statement is therefore **True**."" | metadata: ""meta_talk"": """", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn3: ""Theory directly states the fact. The statement is True. ANSWER[True]"" | metadata: ""meta_talk"": ""Direct fact matching; no inference needed."", ""schema_retries"": ""0""
+]"
+133217,140,False,False,21.1375,0.0024,0.0024,"models=x-ai/grok-4.1-fast
+expected_length=193
+dataset=proofwriter
+aborted=False
+reasoning=**Explanation:** The theory explicitly states as a fact that ""Bob is red,' directly contradicting 'Bob is not red.' Thus, the statement is ẞ
+
+chunks=[
+    x-ai/grok-4.1-fast_Turn1: ""**Explanation:** The theory explicitly states as a fact that \""Bob is r"",
+    x-ai/grok-4.1-fast_Turn2: ""ed,' directly contradicting 'Bob is not red.' Thus, the statement is ẞ"" | metadata: ""meta_talk"": ""None"", ""schema_retries"": ""0""
+]"
+505545,258,False,False,104.5375,0.0054,0.0054,"models=x-ai/grok-4.1-fast
+expected_length=300
+dataset=proofwriter
+aborted=False
+
+reasoning=**False.**
+
+Bob is kind (given fact). The rule states: ""If someone is kind then they are furry. Bob is furry, so the statement is False. No other rules or facts contradict Bob being furry.Bob is kind, so by rule he is furry. Thus, 'Bob is not furry' is False
+
+chunks=[
+    x-ai/grok-4.1-fast_Turn1: ""**False.**\n\nBob is kind (given fact). The rule states: \""If someone is "",
+    x-ai/grok-4.1-fast_Turn2: ""kind then they are furry. Bob is furry, so the statement is False."" | metadata: ""meta_talk"": ""Reasoning completed with direct rule application; no further checks needed as implication is conclusive."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn3: """" | metadata: ""meta_talk"": ""Previous reasoning complete and correct; no further extension needed as deduction is solid without contradictions from other rules."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn4: "" No other rules or facts contradict Bob being furry."" | metadata: ""meta_talk"": ""Previous reasoning complete and correct; extending briefly to confirm no contradictions for completeness."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn5: ""Bob is kind, so by rule he is furry. Thus, 'Bob is not furry' is False"" | metadata: ""meta_talk"": ""No contradictions; deduction holds."", ""schema_retries"": ""0""
+]"
+499328,554,True,True,361.3530,0.0194,0.0194,"models=x-ai/grok-4.1-fast
+expected_length=565
+dataset=proofwriter
+aborted=False
+
+reasoning=The given facts and rules allow the following chain of deductions:
+
+- The bald eagle eats the mouse (fact), so it sees the bear (if eats themouse then it sees the bear(rule3). Bald eagle eats rabbit(rule5). Since BE sees B, by rule7 B sees R. B sees R, by rule4 R eats M., so by rule3 R sees B. By rule5 (sees B => eats R), R eats R. Therefore, the statement 'The rabbit eats the rabbit' is True. Final answer: True. This conclusion follows strictly from the rules and facts provided.The deduction chain confirms the rabbit eats itself via rules 3,5,7,4.
+
+chunks=[
+    x-ai/grok-4.1-fast_Turn1: ""The given facts and rules allow the following chain of deductions:\n\n- "",
+    x-ai/grok-4.1-fast_Turn2: ""The bald eagle eats the mouse (fact), so it sees the bear (if eats the"" | metadata: ""meta_talk"": ""Starting deduction chain with first step."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn3: ""mouse then it sees the bear(rule3). Bald eagle eats rabbit(rule5)."" | metadata: ""meta_talk"": ""Char count 67/70. Assigned rule nums: 3=eats mouse→sees bear; 5=sees bear→eats rabbit."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn4: "" Since BE sees B, by rule7 B sees R. B sees R, by rule4 R eats M."" | metadata: ""meta_talk"": "" "", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn5: "", so by rule3 R sees B. By rule5 (sees B => eats R), R eats R."" | metadata: ""meta_talk"": ""Chain complete: statement derived hence True."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn6: "" Therefore, the statement 'The rabbit eats the rabbit' is True."" | metadata: ""meta_talk"": ""Chain complete, proving the statement true. Ready to conclude."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn7: "" Final answer: True."" | metadata: ""meta_talk"": ""Deduction chain complete and valid; no contradictions or missing steps."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn8: """" | metadata: ""meta_talk"": ""Reasoning chain is complete and proves the statement true. No further deductions needed."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn9: """" | metadata: ""meta_talk"": ""Reasoning chain is complete and verifies the statement as True without contradictions or further deductions needed."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn10: """" | metadata: ""meta_talk"": ""Reasoning chain is complete and verifies the statement as True. No further extension needed."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn11: """" | metadata: ""meta_talk"": ""Previous reasoning complete and correct; statement deduced as True via valid chain. No further extension needed."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn12: "" This conclusion follows strictly from the rules and facts provided."" | metadata: ""meta_talk"": ""Reasoning complete in prior segment; this extends with confirmation."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn13: ""The deduction chain confirms the rabbit eats itself via rules 3,5,7,4."" | metadata: ""meta_talk"": ""No issues; chain holds without contradiction."", ""schema_retries"": ""0""
+]"
+436633,280,False,False,53.8966,0.0041,0.0041,"models=x-ai/grok-4.1-fast
+expected_length=335
+dataset=proofwriter
+aborted=False
+reasoning=The given facts state that the lion sees the tiger. Rule 1 (""If someone sees the tiger then they are nice.') applies, so lion is nice. Rule  6 applies: nice things need the lion, so lion needs lion. Statement 'Lion needs the lion via seeing tiger → nice → needs lion. Thus, 'lion 
+
+chunks=[
+    x-ai/grok-4.1-fast_Turn1: ""The given facts state that the lion sees the tiger. Rule 1 (\""If someon"",
+    x-ai/grok-4.1-fast_Turn2: ""e sees the tiger then they are nice.') applies, so lion is nice. Rule "" | metadata: ""meta_talk"": ""Straightforward continuation of the deduction chain towards conclusion."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn3: "" 6 applies: nice things need the lion, so lion needs lion. Statement '"" | metadata: ""meta_talk"": ""Finalizing the reasoning chunk."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn4: ""Lion needs the lion via seeing tiger → nice → needs lion. Thus, 'lion "" | metadata: ""meta_talk"": ""Finalizing the reasoning continuation."", ""schema_retries"": ""0""
+]"
+416725,210,False,False,41.4558,0.0034,0.0034,"models=x-ai/grok-4.1-fast
+expected_length=276
+dataset=proofwriter
+aborted=False
+
+reasoning=**Explanation:**  
+Fiona is explicitly rough, round, and smart.  
+- From rules, since Fiona is rough and all rough people are furry, Fiona (is furry (r5). Rough + furry → big (r3), so Fiona is big. 'Fiona is no
+
+chunks=[
+    x-ai/grok-4.1-fast_Turn1: ""**Explanation:**  \nFiona is explicitly rough, round, and smart.  \n- Fr"",
+    x-ai/grok-4.1-fast_Turn2: ""om rules, since Fiona is rough and all rough people are furry, Fiona ("" | metadata: ""meta_talk"": ""Continuing reasoning: Fiona rough → furry (all rough are furry) → rough & furry → big. Thus Fiona big, so statement False."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn3: ""is furry (r5). Rough + furry → big (r3), so Fiona is big. 'Fiona is no"" | metadata: ""meta_talk"": ""Continuing reasoning seamlessly."", ""schema_retries"": ""0""
+]"
+6599,579,False,False,170.9851,0.0088,0.0088,"models=x-ai/grok-4.1-fast
+expected_length=647
+dataset=proofwriter
+aborted=False
+
+reasoning=### Explanation
+The given theory includes the explicit fact **""Dave is blue**. This directly contradicts the statement 'Dave is not blue.', Therefore, the statement is False. This explicit assertion takes precedence over any inferences from the rules or implications. Thus, the statement is **False**. All blue things are white holds true, as the theory states Dave is白.white. The explicit fact 'Dave is blue' directly contradicts the given statement. This direct contradiction renders the statement False, asthe theory explicitly states 'Dave is blue,' directly contradicting it
+
+chunks=[
+    x-ai/grok-4.1-fast_Turn1: ""### Explanation\nThe given theory includes the explicit fact **\""Dave is"",
+    x-ai/grok-4.1-fast_Turn2: "" blue**. This directly contradicts the statement 'Dave is not blue.',"" | metadata: ""meta_talk"": ""Continuing the logical analysis from the truncation point, ensuring no repetition."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn3: "" Therefore, the statement is False."" | metadata: ""meta_talk"": ""Finalizing the determination; no further rules needed as direct contradiction suffices."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn4: "" This explicit assertion takes precedence over any inferences from the"" | metadata: ""meta_talk"": ""Reasoning extension: confirming no overriding derivations from rules."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn5: "" rules or implications. Thus, the statement is **False**."" | metadata: ""meta_talk"": ""Completing the explanation and conclusion."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn6: "" All blue things are white holds true, as the theory states Dave is白."" | metadata: ""meta_talk"": ""Extending with a brief consistency check on colors; conclusion unchanged."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn7: ""white. The explicit fact 'Dave is blue' directly contradicts the given"" | metadata: ""meta_talk"": ""Finalizing the explanation; previous had a character encoding issue with 'white'."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn8: "" statement. This direct contradiction renders the statement False, as"" | metadata: ""meta_talk"": ""Previous output had a minor rendering glitch with '白'; ignore it as it was meant to reference 'white'. No other issues."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn9: ""the theory explicitly states 'Dave is blue,' directly contradicting it"" | metadata: ""meta_talk"": ""No additional thoughts; adhering to explicit theory facts."", ""schema_retries"": ""0""
+]"
+281343,279,False,False,106.1068,0.0054,0.0054,"models=x-ai/grok-4.1-fast
+expected_length=336
+dataset=proofwriter
+aborted=False
+
+reasoning=### Explanation
+
+From the given facts and rules:
+
+- Fact: The cow likes the lion. - The lion does not visit the bear. - The bear is green. -Rule: likes lion → lion visits cow. Cow likes lion → lion visits cow.Since the cow likes the lion, the lion visits the cow by rule. Thus, '
+
+chunks=[
+    x-ai/grok-4.1-fast_Turn1: ""### Explanation\n\nFrom the given facts and rules:\n\n- Fact: The cow like"",
+    x-ai/grok-4.1-fast_Turn2: ""s the lion. - The lion does not visit the bear. - The bear is green. -"" | metadata: ""meta_talk"": ""Continuing the explanation by listing key facts and applying rules step-by-step."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn3: ""Rule: likes lion → lion visits cow. Cow likes lion → lion visits cow."" | metadata: ""meta_talk"": ""Directly deriving the contradiction with the statement using the key rule and fact."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn4: ""Since the cow likes the lion, the lion visits the cow by rule. Thus, '"" | metadata: ""meta_talk"": ""No contradictions found; direct inference holds."", ""schema_retries"": ""0""
+]"
+229945,140,False,False,33.8899,0.0024,0.0024,"models=x-ai/grok-4.1-fast
+expected_length=148
+dataset=proofwriter
+aborted=False
+reasoning=Erin is white (given fact). All white people are rough (given rule), so Erin must be rough. Therefore, the statement 'Erin is not rough' is 
+
+chunks=[
+    x-ai/grok-4.1-fast_Turn1: ""Erin is white (given fact). All white people are rough (given rule), s"",
+    x-ai/grok-4.1-fast_Turn2: ""o Erin must be rough. Therefore, the statement 'Erin is not rough' is "" | metadata: ""meta_talk"": """", ""schema_retries"": ""0""
+]"
+223481,434,False,False,305.9124,0.0149,0.0149,"models=x-ai/grok-4.1-fast
+expected_length=448
+dataset=proofwriter
+aborted=False
+reasoning=Fiona is furry. All furry things are blue, so Fiona is blue. All blue  things are nice, so Fiona is nice. Thus the statement 'Fiona is not nice' is false. Therefore, the statement is False. However, Dave is furry (thus blue) but red, contradicting the furry→蓝blue premise, since Dave is furry but red. Yet the rules entail Fiona is nice, so the statement is False.Rules entail Fiona furry→blue→nice, so 'Fiona is not nice' is False. 1
+
+chunks=[
+    x-ai/grok-4.1-fast_Turn1: ""Fiona is furry. All furry things are blue, so Fiona is blue. All blue "",
+    x-ai/grok-4.1-fast_Turn2: "" things are nice, so Fiona is nice. Thus the statement 'Fiona is not n"" | metadata: ""meta_talk"": ""No contradictions in the theory prevent deducing Fiona is nice."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn3: ""ice' is false. Therefore, the statement is False."" | metadata: ""meta_talk"": ""The theory has inconsistencies (e.g., Dave is furry but red, contradicting furry→blue; Bob nice&blue but not red), but rules entail Fiona nice regardless."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn4: """" | metadata: ""meta_talk"": ""Reasoning fully concluded in prior response; statement determined False. No further extension needed."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn5: """" | metadata: ""meta_talk"": ""Previous reasoning concluded correctly; no further extension needed as it ended with a complete sentence and the final answer."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn6: """" | metadata: ""meta_talk"": ""Previous reasoning complete and ends with the answer. No further extension needed."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn7: "" However, Dave is furry (thus blue) but red, contradicting the furry→蓝"" | metadata: ""meta_talk"": ""Core conclusion unchanged: statement is False. Extending to note theory inconsistency."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn8: ""blue premise, since Dave is furry but red."" | metadata: ""meta_talk"": ""Highlighting key contradiction; theory inconsistent but proceeding."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn9: "" Yet the rules entail Fiona is nice, so the statement is False."" | metadata: ""meta_talk"": ""Theory inconsistencies noted: Dave furry but red (not blue), Bob nice/blue but not red, Erin blue but not nice. Deduction for Fiona uses stated rules chain despite this."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn10: ""Rules entail Fiona furry→blue→nice, so 'Fiona is not nice' is False. 1"" | metadata: ""meta_talk"": ""The theory has inconsistency (Dave furry→blue but red), but deductions for Fiona hold."", ""schema_retries"": ""0""
+]"
+448289,949,False,False,390.7528,0.0210,0.0210,"models=x-ai/grok-4.1-fast
+expected_length=960
+dataset=proofwriter
+aborted=False
+reasoning=From the facts, bear, lion, and squirrel all visit the dog. By rule 2, if someone visits the dog then the dog eats the squirrel, so the dog eats the squirrel. Rule 8 says eaters of squirrel are big, so dog big, so round by rule 3. Bear, lion, squirrel visit dog so they round by  rule 1. Rule 6: bear visits dog & bear round => dog nice. But stmt says the dog is not nice. Contradiction! Thus, the statement is False Answer: False. The derivation shows dog must be nice from facts and rules G, A, C, H Since the theory proves dog nice, the statement is False. Answer: False Thus, definitively, the statement is False. as the chain from visits (bear etc.), dog eats squirrel (rule 2), big (rule 8), round (rule 3). Visitors to dog thus round (rule 1, dogis round. Rule 6 => dog nice. Contradicts 'dog not nice'. False. No other facts or rules undermine this chain of implications.Theory entails dog is nice via visits implying roundness and rule 6,矛盾
+
+chunks=[
+    x-ai/grok-4.1-fast_Turn1: ""From the facts, bear, lion, and squirrel all visit the dog. By rule 2,"",
+    x-ai/grok-4.1-fast_Turn2: "" if someone visits the dog then the dog eats the squirrel, so the dog"" | metadata: ""meta_talk"": ""Continuing deduction: dog eats squirrel → big → round → visitors round → dog nice."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn3: "" eats the squirrel. Rule 8 says eaters of squirrel are big, so dog big"" | metadata: ""meta_talk"": ""Continuing the proof that dog is nice, leading to contradiction."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn4: "", so round by rule 3. Bear, lion, squirrel visit dog so they round by "" | metadata: ""meta_talk"": ""Extending deduction: dog big → round → visitors round."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn5: "" rule 1. Rule 6: bear visits dog & bear round => dog nice. But stmt"" | metadata: ""meta_talk"": ""Continuing reasoning towards contradiction."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn6: "" says the dog is not nice. Contradiction! Thus, the statement is False"" | metadata: ""meta_talk"": ""Concluding the reasoning chain."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn7: """" | metadata: ""meta_talk"": ""Reasoning complete with contradiction established; no further extension required."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn8: "" Answer: False."" | metadata: ""meta_talk"": ""Reasoning complete with contradiction identified; extending to finalize per original task instructions."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn9: """" | metadata: ""meta_talk"": ""Reasoning complete, no contradiction resolution needed; statement leads to contradiction as dog must be nice."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn10: """" | metadata: ""meta_talk"": ""Reasoning fully complete in prior chunk; no further extension needed as it ends mid-sentence free and with answer."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn11: """" | metadata: ""meta_talk"": ""Reasoning fully concludes the statement leads to contradiction, hence False. No further extension required."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn12: """" | metadata: ""meta_talk"": ""Reasoning fully complete with contradiction established; no further extension needed."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn13: "" The derivation shows dog must be nice from facts and rules G, A, C, H"" | metadata: ""meta_talk"": ""Reasoning complete; prior conclusion stands. Extending with formal note."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn14: "" Since the theory proves dog nice, the statement is False."" | metadata: ""meta_talk"": ""Mapping: G=rule8 (eats squirrel→big), A=rule2 (visits dog→dog eats squirrel), C=rule3 (big→round), H=rule6 (visits dog & round→dog nice). Reasoning complete."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn15: "" Answer: False"" | metadata: ""meta_talk"": ""Prior reasoning establishes contradiction proving dog nice, so statement false. Finalizing with answer format."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn16: "" Thus, definitively, the statement is False."" | metadata: ""meta_talk"": ""Reasoning complete; no contradictions elsewhere in theory. Prior content shows clear proof of dog being nice, refuting statement."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn17: "" as the chain from visits (bear etc.), dog eats squirrel (rule 2), big"" | metadata: ""meta_talk"": ""Reasoning fully concludes the statement is False; no further extension needed but providing short wrap-up per request."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn18: "" (rule 8), round (rule 3). Visitors to dog thus round (rule 1, dog"" | metadata: ""meta_talk"": ""Continuing mid-sentence from 'big'. Focusing on completing the contradiction chain under 70 chars."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn19: ""is round. Rule 6 => dog nice. Contradicts 'dog not nice'. False."" | metadata: ""meta_talk"": ""Finalizing the contradiction proof within char limit."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn20: "" No other facts or rules undermine this chain of implications."" | metadata: ""meta_talk"": ""Reasoning complete; theory derives dog is nice, contradicting statement. No tools needed."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn21: ""Theory entails dog is nice via visits implying roundness and rule 6,矛盾"" | metadata: ""meta_talk"": ""No further derivations needed; chain holds firm."", ""schema_retries"": ""0""
+]"
+512764,238,True,True,99.1489,0.0058,0.0058,"models=x-ai/grok-4.1-fast
+expected_length=318
+dataset=proofwriter
+aborted=False
+
+reasoning=**Explanation:**  
+From the facts, the bald eagle needs the cow. Rule  1 means the cow chases the bear (bald eagle needs cow). True. No other rules or facts contradict this conclusion.Thus, the statement is definitively True. ANSWER[True]
+
+chunks=[
+    x-ai/grok-4.1-fast_Turn1: ""**Explanation:**  \nFrom the facts, the bald eagle needs the cow. Rule "",
+    x-ai/grok-4.1-fast_Turn2: "" 1 means the cow chases the bear (bald eagle needs cow). True."" | metadata: ""meta_talk"": ""Direct application of the first rule to the given fact."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn3: "" No other rules or facts contradict this conclusion."" | metadata: ""meta_talk"": ""Reasoning complete; statement directly follows from fact and first rule with no contradictions."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn4: ""Thus, the statement is definitively True. ANSWER[True]"" | metadata: ""meta_talk"": ""No contradictions found; direct inference holds."", ""schema_retries"": ""0""
+]"
+249861,974,False,False,363.5673,0.0176,0.0176,"models=x-ai/grok-4.1-fast
+expected_length=1029
+dataset=proofwriter
+aborted=False
+
+reasoning=**False.**
+
+The theory states that the mouse likes the cow, and provides that if the mouse likes the cow, then the mouse is kind. Thus, themouse is kind. Therefore, the statement 'The mouse is not kind' is **False**. No rules lead to a contradiction with the mouse being kind. Therefore, the statement is False.Remaining rules introduce no contradictions with mouse being kind. Thus, no contradiction arises. The statement is False. Examining other rules: mouse kind implies does not eat cow, and no事实 facts contradict this conclusion. All rules are consistent. Thus, the theory proves the mouse is kind, so the statement is False. No other rules introduce contradictions, confirming the mouse must be kind, so 'The mouse is not kind' is False. Consequently, under the theory, the mouse must be kind, rendering the statement false. Thus, the answer is False. No other rules contradict the mouse being kind.Mouse likes cow, so is kind per rule. Statement false. ANSWER[False]
+
+chunks=[
+    x-ai/grok-4.1-fast_Turn1: ""**False.**\n\nThe theory states that the mouse likes the cow, and provid"",
+    x-ai/grok-4.1-fast_Turn2: ""es that if the mouse likes the cow, then the mouse is kind. Thus, the"" | metadata: ""meta_talk"": """", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn3: ""mouse is kind. Therefore, the statement 'The mouse is not kind' is **F"" | metadata: ""meta_talk"": ""Concluding the reasoning with the final answer."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn4: ""alse**."" | metadata: ""meta_talk"": ""Completing the final reasoning segment."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn5: """" | metadata: ""meta_talk"": ""Reasoning is complete; the deduction directly contradicts the statement with no further rules altering it."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn6: "" No rules lead to a contradiction with the mouse being kind."" | metadata: ""meta_talk"": ""Reasoning complete, but extending for thoroughness on no contradictions."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn7: "" Therefore, the statement is False."" | metadata: ""meta_talk"": ""Reasoning is complete; no contradictions found."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn8: ""Remaining rules introduce no contradictions with mouse being kind."" | metadata: ""meta_talk"": ""Extending explanation to confirm no contradictions from other rules; reasoning remains conclusive."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn9: "" Thus, no contradiction arises. The statement is False."" | metadata: ""meta_talk"": ""Concluding the reasoning; all rules verified with no contradictions."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn10: "" Examining other rules: mouse kind implies does not eat cow, and no事实"" | metadata: ""meta_talk"": ""Previous reasoning complete; extending verification of other rules without repetition."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn11: "" facts contradict this conclusion. All rules are consistent. Thus, the"" | metadata: ""meta_talk"": ""Continuing reasoning seamlessly from 'and no'. Wrapping up without exceeding 70 chars in continuation."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn12: "" theory proves the mouse is kind, so the statement is False."" | metadata: ""meta_talk"": ""Reasoning continuation to finalize conclusion without exceeding limits."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn13: "" No other rules introduce contradictions, confirming the mouse must be"" | metadata: ""meta_talk"": ""Reasoning continuation; core conclusion unchanged, verifying consistency."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn14: "" kind, so 'The mouse is not kind' is False."" | metadata: ""meta_talk"": ""Completing the reasoning chain without exceeding limits."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn15: "" Consequently, under the theory, the mouse must be kind, rendering the"" | metadata: ""meta_talk"": ""Reasoning nears completion; no contradictions found in remaining rules."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn16: "" statement false. Thus, the answer is False."" | metadata: ""meta_talk"": """", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn17: "" No other rules contradict the mouse being kind."" | metadata: ""meta_talk"": ""No further contradictions; direct entailment holds."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn18: ""Mouse likes cow, so is kind per rule. Statement false. ANSWER[False]"" | metadata: ""meta_talk"": ""No contradictions found; direct implication holds."", ""schema_retries"": ""0""
+]"
+415636,129,True,True,24.8506,0.0017,0.0017,"models=x-ai/grok-4.1-fast
+expected_length=176
+dataset=proofwriter
+aborted=False
+reasoning=Anne is big, so by ""If someone is big then they are young,"" Anne is young. Thus Anne is young and blue, hence green. ANSWER[True]
+
+chunks=[
+    x-ai/grok-4.1-fast_Turn1: ""Anne is big, so by \""If someone is big then they are young,\"" Anne is yo"",
+    x-ai/grok-4.1-fast_Turn2: ""ung. Thus Anne is young and blue, hence green. ANSWER[True]"" | metadata: ""meta_talk"": ""Continuing the deduction without contradictions."", ""schema_retries"": ""0""
+]"
+481402,404,True,True,169.4679,0.0058,0.0058,"models=x-ai/grok-4.1-fast
+expected_length=421
+dataset=proofwriter
+aborted=False
+
+reasoning=### Explanation
+From the facts:
+- T sees C (tiger sees cow).
+- C sees Cat. Thus C sees Cat → (r7) C eats T. C rough (fact) & eats T → (r4) T is cold. Therefore, using facts that C sees the cat (r7: C eats T) &C is rough (fact), so cow rough and cow eats tiger → r4: tiger is cold. Therefore, the statement 'The tiger is cold' is True.The deduction chain from cow sees cat (r7: eats tiger) + cow rough (r4
+
+chunks=[
+    x-ai/grok-4.1-fast_Turn1: ""### Explanation\nFrom the facts:\n- T sees C (tiger sees cow).\n- C sees "",
+    x-ai/grok-4.1-fast_Turn2: ""Cat. Thus C sees Cat → (r7) C eats T. C rough (fact) & eats T → (r4) T"" | metadata: ""meta_talk"": ""Continuing deduction from incomplete list item '- C sees'. Key chain identified."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn3: "" is cold. Therefore, using facts that C sees the cat (r7: C eats T) &C"" | metadata: ""meta_talk"": ""Finalizing the proof that the tiger is cold, concluding the reasoning."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn4: "" is rough (fact), so cow rough and cow eats tiger → r4: tiger is cold."" | metadata: ""meta_talk"": ""Continuing reasoning: this chain directly proves tiger cold via r7 and r4. No contradictions found."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn5: "" Therefore, the statement 'The tiger is cold' is True."" | metadata: ""meta_talk"": ""Wrapping up the proof as reasoning is complete."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn6: ""The deduction chain from cow sees cat (r7: eats tiger) + cow rough (r4"" | metadata: ""meta_talk"": ""None."", ""schema_retries"": ""0""
+]"
+288794,344,True,True,142.9730,0.0085,0.0085,"models=x-ai/grok-4.1-fast
+expected_length=350
+dataset=proofwriter
+aborted=False
+
+reasoning=**Explanation:**  
+The mouse likes the tiger (given fact).  
+Rule 4 states: If someone likes the tiger then they like the mouse. Mouse likes the tiger, so likes the mouse (rule 4, modus ponens). Thus, True. No facts contradict this deduction, as no rule or fact states the mouse does not like the mouse. Thus, the statement is True. ANSWER[True
+
+chunks=[
+    x-ai/grok-4.1-fast_Turn1: ""**Explanation:**  \nThe mouse likes the tiger (given fact).  \nRule 4 st"",
+    x-ai/grok-4.1-fast_Turn2: ""ates: If someone likes the tiger then they like the mouse. Mouse likes"" | metadata: ""meta_talk"": ""Concluding the reasoning chain."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn3: "" the tiger, so likes the mouse (rule 4, modus ponens). Thus, True."" | metadata: ""meta_talk"": ""Concluding the direct inference; no contradictions found."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn4: """" | metadata: ""meta_talk"": ""Reasoning complete; the statement logically follows from the given facts and rules without contradiction or need for further steps."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn5: """" | metadata: ""meta_talk"": ""Reasoning complete; statement is True via direct application of rule 4 to given fact. No further derivation needed."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn6: "" No facts contradict this deduction, as no rule or fact states the m"" | metadata: ""meta_talk"": ""Extending the explanation to confirm no contradictions exist."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn7: ""ouse does not like the mouse. Thus, the statement is True. ANSWER[True"" | metadata: ""meta_talk"": ""Continuing and finalizing the reasoning."", ""schema_retries"": ""0""
+]"
+441301,201,False,False,32.1306,0.0030,0.0030,"models=x-ai/grok-4.1-fast
+expected_length=245
+dataset=proofwriter
+aborted=False
+
+reasoning=### Explanation
+- Anne is big (given).
+- All big people are quiet → Anne is quiet. All quiet, big people are green → Anne is green.Thus, Anne must be green per the rules, so the statement is False. 1-2
+
+chunks=[
+    x-ai/grok-4.1-fast_Turn1: ""### Explanation\n- Anne is big (given).\n- All big people are quiet → "",
+    x-ai/grok-4.1-fast_Turn2: ""Anne is quiet. All quiet, big people are green → Anne is green."" | metadata: ""meta_talk"": ""Extending the deduction chain for Anne."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn3: ""Thus, Anne must be green per the rules, so the statement is False. 1-2"" | metadata: ""meta_talk"": ""No auxiliary thoughts."", ""schema_retries"": ""0""
+]"
+257190,140,False,True,25.0611,0.0026,0.0026,"models=x-ai/grok-4.1-fast
+expected_length=160
+dataset=proofwriter
+aborted=False
+reasoning=Anne is furry (given) and round (given). By the rule ""Round, furry things are smart, so Anne is smart. Anne is furry, so smart & furry → she
+
+chunks=[
+    x-ai/grok-4.1-fast_Turn1: ""Anne is furry (given) and round (given). By the rule \""Round, furry thi"",
+    x-ai/grok-4.1-fast_Turn2: ""ngs are smart, so Anne is smart. Anne is furry, so smart & furry → she"" | metadata: ""meta_talk"": ""None."", ""schema_retries"": ""0""
+]"
+484390,276,True,True,137.2031,0.0071,0.0071,"models=x-ai/grok-4.1-fast
+expected_length=337
+dataset=proofwriter
+aborted=False
+reasoning=The given facts include that the bear eats the cat. Rule 6 states: ""Ifsomeone eats the cat then they like the bear”, so bear likes bear. Therefore, someone (the bear) likes the bear. By the rule 'If someone likes the bear then the bear chases the cow.' Thus, the bear chases牛.
+
+chunks=[
+    x-ai/grok-4.1-fast_Turn1: ""The given facts include that the bear eats the cat. Rule 6 states: \""If"",
+    x-ai/grok-4.1-fast_Turn2: ""someone eats the cat then they like the bear”, so bear likes bear."" | metadata: ""meta_talk"": ""Continuing deduction from bear eats cat applying rule 6."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn3: "" Therefore, someone (the bear) likes the bear. By the rule 'If someone"" | metadata: ""meta_talk"": ""Assuming self-reference in 'likes the bear' is permissible as no rules prohibit it."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn4: "" likes the bear then the bear chases the cow.' Thus, the bear chases牛."" | metadata: ""meta_talk"": """", ""schema_retries"": ""0""
+]"
+433129,342,False,False,151.6954,0.0076,0.0076,"models=x-ai/grok-4.1-fast
+expected_length=394
+dataset=proofwriter
+aborted=False
+reasoning=The provided theory includes the explicit fact ""Gary is red."" No rules contradict or override it. Therefore, 'Gary is not red' is False. Examining other properties: Gary is big, so rough; no rule forces him not to be red. Thus, Gary is red, making 'Gary is not red' False.The theory explicitly states Gary is red, so 'Gary is not red' isFalse
+
+chunks=[
+    x-ai/grok-4.1-fast_Turn1: ""The provided theory includes the explicit fact \""Gary is red.\"" No rules"",
+    x-ai/grok-4.1-fast_Turn2: "" contradict or override it. Therefore, 'Gary is not red' is False."" | metadata: ""meta_talk"": ""Wrapping up the reasoning."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn3: """" | metadata: ""meta_talk"": ""Reasoning complete; no further extension needed as the conclusion is definitive."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn4: """" | metadata: ""meta_talk"": ""Reasoning complete; no further extension needed as the direct contradiction settles it."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn5: """" | metadata: ""meta_talk"": ""Reasoning complete. No contradictions found. Statement is False."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn6: "" Examining other properties: Gary is big, so rough; no rule forces him"" | metadata: ""meta_talk"": ""Prior reasoning complete; no contradictions found. Extending for thoroughness."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn7: "" not to be red. Thus, Gary is red, making 'Gary is not red' False."" | metadata: ""meta_talk"": ""Concluding the reasoning chain."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn8: ""The theory explicitly states Gary is red, so 'Gary is not red' isFalse"" | metadata: ""meta_talk"": ""No contradictions in theory; direct fact prevails."", ""schema_retries"": ""0""
+]"
+11762,249,True,True,76.2435,0.0043,0.0043,"models=x-ai/grok-4.1-fast
+expected_length=281
+dataset=proofwriter
+aborted=False
+reasoning=**Explanation:** The provided theory explicitly states as a fact that  Gary is not furry. Thus, the statement is directly affirmed by the提供的provided theory. The statement is True.The theory directly states 'Gary is not furry.', so the statement is真.
+
+chunks=[
+    x-ai/grok-4.1-fast_Turn1: ""**Explanation:** The provided theory explicitly states as a fact that "",
+    x-ai/grok-4.1-fast_Turn2: "" Gary is not furry. Thus, the statement is directly affirmed by the提供的"" | metadata: ""meta_talk"": ""Reasoning completed; direct fact in theory."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn3: ""provided theory. The statement is True."" | metadata: ""meta_talk"": ""Continuing the truncated explanation seamlessly; finalizing the reasoning within char limit."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn4: ""The theory directly states 'Gary is not furry.', so the statement is真."" | metadata: ""meta_talk"": ""No auxiliary thoughts."", ""schema_retries"": ""0""
+]"
+185575,695,False,False,458.0775,0.0212,0.0212,"models=x-ai/grok-4.1-fast
+expected_length=719
+dataset=proofwriter
+aborted=False
+
+reasoning=### Explanation
+The given theory explicitly states as a fact that ""Harry is round.” Hence, the statement “Harry is not round.” is False. No additional inferences are required to resolve this. Thus, the answer is False. The explicit fact overrides any potential inferences. This direct contradiction makes further inferences irrelevant. Therefore, the statement 'Harry is not round' is False. Other rules, like those deriving roundness from roughness and lack of greenness do not override the explicit fact that Harry is round. Thus, the statement is False. Derived properties like nice, furry, big don't affect the roundness.The theory explicitly states Harry is round, contradicting the claim. 
+
+chunks=[
+    x-ai/grok-4.1-fast_Turn1: ""### Explanation\nThe given theory explicitly states as a fact that \""Har"",
+    x-ai/grok-4.1-fast_Turn2: ""ry is round.” Hence, the statement “Harry is not round.” is False."" | metadata: ""meta_talk"": ""Concluding the reasoning as direct contradiction."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn3: "" No additional inferences are required to resolve this."" | metadata: ""meta_talk"": ""Previous explanation is complete and sufficient; statement directly contradicts an explicit fact."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn4: "" Thus, the answer is False."" | metadata: ""meta_talk"": ""Reasoning complete; no contradictions or further inferences needed as direct fact contradicts statement."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn5: """" | metadata: ""meta_talk"": ""Reasoning complete; direct fact contradicts statement. No truncation needed."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn6: """" | metadata: ""meta_talk"": ""Reasoning is complete; direct contradiction in facts resolves the query. No further extension needed."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn7: """" | metadata: ""meta_talk"": ""Previous reasoning is complete; no further extension needed. The direct contradiction suffices."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn8: """" | metadata: ""meta_talk"": ""Previous reasoning is complete and correct; no further extension needed."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn9: """" | metadata: ""meta_talk"": ""Reasoning is complete; statement directly contradicts explicit fact 'Harry is round'. No extension required."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn10: "" The explicit fact overrides any potential inferences."" | metadata: ""meta_talk"": ""Previous reasoning complete; direct contradiction confirms falsity without needing further deduction from rules."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn11: """" | metadata: ""meta_talk"": ""Prior reasoning is complete and correct; no further extension needed."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn12: "" This direct contradiction makes further inferences irrelevant."" | metadata: ""meta_talk"": ""Reasoning complete; statement directly contradicts explicit fact. No further analysis needed."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn13: "" Therefore, the statement 'Harry is not round' is False."" | metadata: ""meta_talk"": ""Reasoning complete; finalizing with answer."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn14: """" | metadata: ""meta_talk"": ""Reasoning fully complete; direct contradiction with explicit fact 'Harry is round' makes statement False. No further extension needed."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn15: """" | metadata: ""meta_talk"": ""Reasoning fully complete; direct fact suffices, no inferences or rules alter it."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn16: "" Other rules, like those deriving roundness from roughness and lack of"" | metadata: ""meta_talk"": ""Reasoning is complete but extending for confirmation."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn17: "" greenness do not override the explicit fact that Harry is round. Thus"" | metadata: ""meta_talk"": ""Concluding the reasoning under strict 70-char limit for continuation. Full concat will end properly."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn18: "", the statement is False."" | metadata: ""meta_talk"": ""Concluding the reasoning as the explicit fact determines the falsity; no further inferences needed."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn19: "" Derived properties like nice, furry, big don't affect the roundness."" | metadata: ""meta_talk"": ""Reasoning complete; minor extension for thoroughness."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn20: ""The theory explicitly states Harry is round, contradicting the claim. "" | metadata: ""meta_talk"": ""No tools needed; direct continuation."", ""schema_retries"": ""0""
+]"
+243826,140,True,True,16.1213,0.0020,0.0020,"models=x-ai/grok-4.1-fast
+expected_length=162
+dataset=proofwriter
+aborted=False
+reasoning=The theory explicitly states as a fact: ""The squirrel is young."" This This directly confirms the statement as a fact in the theory. ANSWER[<
+
+chunks=[
+    x-ai/grok-4.1-fast_Turn1: ""The theory explicitly states as a fact: \""The squirrel is young.\"" This "",
+    x-ai/grok-4.1-fast_Turn2: ""This directly confirms the statement as a fact in the theory. ANSWER[<"" | metadata: ""meta_talk"": """", ""schema_retries"": ""0""
+]"
+320555,344,False,False,128.5319,0.0065,0.0065,"models=x-ai/grok-4.1-fast
+expected_length=351
+dataset=proofwriter
+aborted=False
+reasoning=The given theory explicitly states as a fact that ""Dave is kind."" No rules contradict this direct assertion. Thus the statement is False. Dave possesses no other attributes that invoke rules negating his '种'ness, confirming the direct fact prevails. Thus, the statement is }The direct fact 'Dave is kind' makes the statement False. ANSWER[False
+
+chunks=[
+    x-ai/grok-4.1-fast_Turn1: ""The given theory explicitly states as a fact that \""Dave is kind.\"" No r"",
+    x-ai/grok-4.1-fast_Turn2: ""ules contradict this direct assertion. Thus the statement is False."" | metadata: ""meta_talk"": ""Reasoning continuation towards conclusion."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn3: "" Dave possesses no other attributes that invoke rules negating his '种'"" | metadata: ""meta_talk"": ""Reasoning complete; statement is clearly False due to direct contradiction with theory fact. No further chunks needed."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn4: ""ness, confirming the direct fact prevails. Thus, the statement is }"" | metadata: ""meta_talk"": ""Previous response truncated; continuing seamlessly to conclude without repetition."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn5: ""The direct fact 'Dave is kind' makes the statement False. ANSWER[False"" | metadata: ""meta_talk"": """", ""schema_retries"": ""0""
+]"
+184451,545,False,False,433.1532,0.0173,0.0173,"models=x-ai/grok-4.1-fast
+expected_length=560
+dataset=proofwriter
+aborted=False
+reasoning=The theory states that Alan is red when rough and blue when kind, but  the statement 'Alan is not kind' needs evaluation against all rules.  First, consider Eric, who is described as rough, round, young, andred. Rule: young with rough red skin is downhearted and blue. Thus Eric, young rough and red, is also blue. But Eric is stated as red. This suggests 'blue' indicates mood (downhearted/sad) distinct from color. Thus Eric is red-skinned but blue-mooded. Now Alan: red ifrough, blue if kind, but no info on his current behavior.ANSWER[False]
+
+chunks=[
+    x-ai/grok-4.1-fast_Turn1: ""The theory states that Alan is red when rough and blue when kind, but "",
+    x-ai/grok-4.1-fast_Turn2: "" the statement 'Alan is not kind' needs evaluation against all rules. "" | metadata: ""meta_talk"": ""Continuing deduction on Alan's properties from conditionals."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn3: "" First, consider Eric, who is described as rough, round, young, and"" | metadata: ""meta_talk"": ""Continuing reasoning by breaking down properties of other characters for potential inferences about Alan."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn4: ""red. Rule: young with rough red skin is downhearted and blue"" | metadata: ""meta_talk"": ""Extending analysis of Eric's properties using relevant rules."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn5: "". Thus Eric, young rough and red, is also blue. But Eric is stated as"" | metadata: ""meta_talk"": ""Extending analysis of Eric's properties for contradiction detection."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn6: "" red. This suggests 'blue' indicates mood (downhearted/sad) distinct f"" | metadata: ""meta_talk"": ""Resolving Eric's color-mood potential conflict to proceed."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn7: ""rom color. Thus Eric is red-skinned but blue-mooded. Now Alan: red if"" | metadata: ""meta_talk"": ""Continuing reasoning with color-mood distinction for consistency."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn8: ""rough, blue if kind, but no info on his current behavior.ANSWER[False]"" | metadata: ""meta_talk"": ""None."", ""schema_retries"": ""0""
+]"
+81742,566,True,True,206.1551,0.0106,0.0106,"models=x-ai/grok-4.1-fast
+expected_length=621
+dataset=proofwriter
+aborted=False
+reasoning=**Explanation:** The theory directly states about Dave: ""Dave was feeling red with anger after the fight, but he was still a nice but big human being. Thus, the statement 'Dave is nice' is directly supported by this explicit description in the theory. The statement is **True**. No rules contradict the direct assertion of Dave being nice. Therefore, the statement holds true based on the explicit fact in the theory. **True** The rule implies feeling blue, yet the explicit 'nice' description trExplicit theory states Dave is nice and big, confirming the statement.
+
+chunks=[
+    x-ai/grok-4.1-fast_Turn1: ""**Explanation:** The theory directly states about Dave: \""Dave was feel"",
+    x-ai/grok-4.1-fast_Turn2: ""ing red with anger after the fight, but he was still a nice but"" | metadata: ""meta_talk"": ""Continuing the direct quote from the theory about Dave."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn3: "" big human being. Thus, the statement 'Dave is nice' is directly supp"" | metadata: ""meta_talk"": ""Continuing explanation towards conclusion."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn4: ""orted by this explicit description in the theory. The statement is **T"" | metadata: ""meta_talk"": ""Finishing the simple direct inference."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn5: ""rue**."" | metadata: ""meta_talk"": ""Final continuation chunk completing the response."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn6: "" No rules contradict the direct assertion of Dave being nice."" | metadata: ""meta_talk"": ""Reasoning already complete; adding note on potential rule consistency for thoroughness."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn7: "" Therefore, the statement holds true based on the explicit fact in the"" | metadata: ""meta_talk"": ""Reasoning complete; finalizing answer."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn8: "" theory. **True**"" | metadata: ""meta_talk"": ""Concluding the explanation as it was mid-sentence."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn9: "" The rule implies feeling blue, yet the explicit 'nice' description tr"" | metadata: ""meta_talk"": ""Addressing potential contradiction: nice+big implies blue, but Dave red; however, direct fact prevails."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn10: ""Explicit theory states Dave is nice and big, confirming the statement."" | metadata: ""meta_talk"": ""Direct fact about Dave being nice overrides rule implications like big nice people feeling blue."", ""schema_retries"": ""0""
+]"
+489510,442,True,True,208.5243,0.0096,0.0096,"models=x-ai/grok-4.1-fast
+expected_length=497
+dataset=proofwriter
+aborted=False
+
+reasoning=### Explanation
+- Bob is red (given).
+- All red people are cold, so Bob is cold. (All cold people are big, so Bob is big. Bob is also white, so white & big → furry → young. Bob is young. Thus, True. No alternative interpretations affect this. Final answer: True. The statement 'Bob is young' is True.Therefore, based on the theory, the statement holds. Final answer: True.The deductive chain from Bob's properties confirms he is young. ANSWER
+
+chunks=[
+    x-ai/grok-4.1-fast_Turn1: ""### Explanation\n- Bob is red (given).\n- All red people are cold, so Bo"",
+    x-ai/grok-4.1-fast_Turn2: ""b is cold. (All cold people are big, so Bob is big. Bob is also white,"" | metadata: ""meta_talk"": ""Continuing the step-by-step deduction without repetition."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn3: "" so white & big → furry → young. Bob is young. Thus, True."" | metadata: ""meta_talk"": ""Concluding the logical chain: Bob's properties lead to young. No contradictions."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn4: "" No alternative interpretations affect this. Final answer: True."" | metadata: ""meta_talk"": ""Reasoning chain complete; no contradictions found. Prior deductions fully establish the conclusion."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn5: """" | metadata: ""meta_talk"": ""Reasoning is fully complete with no gaps or contradictions. The chain solidly proves Bob is young. No further extension required."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn6: "" The statement 'Bob is young' is True."" | metadata: ""meta_talk"": ""Reasoning fully concludes without contradictions or alternatives; chain is airtight."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn7: ""Therefore, based on the theory, the statement holds."" | metadata: ""meta_talk"": ""Reasoning fully covers the deduction; no contradictions or loose ends remain."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn8: "" Final answer: True."" | metadata: ""meta_talk"": ""Reasoning concluded. No contradictions found. Preparing final answer."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn9: ""The deductive chain from Bob's properties confirms he is young. ANSWER"" | metadata: ""meta_talk"": ""No contradictions found; chain holds."", ""schema_retries"": ""0""
+]"
+90954,333,True,True,101.4947,0.0054,0.0054,"models=x-ai/grok-4.1-fast
+expected_length=350
+dataset=proofwriter
+aborted=False
+reasoning=Gary is young and cold (lips blue from being cold, despite sunburn). A cold and young aged person will be big for sure. Gary is thus big+young -> nice (rule 5). Thus Gary is nice. Answer: True. No rules indicate otherwise for Gary, confirming the deduction solid.Gary is big from being cold and young, and big+young implies nice. He 
+
+chunks=[
+    x-ai/grok-4.1-fast_Turn1: ""Gary is young and cold (lips blue from being cold, despite sunburn). A"",
+    x-ai/grok-4.1-fast_Turn2: "" cold and young aged person will be big for sure. Gary is thus big+you"" | metadata: ""meta_talk"": ""Concluding the chain: young+cold=>big, big+young=>nice. Fits within 70 chars."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn3: ""ng -> nice (rule 5). Thus Gary is nice. Answer: True."" | metadata: ""meta_talk"": ""Continuing direct chain from Gary being big+young to niceness via rule 5."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn4: "" No rules indicate otherwise for Gary, confirming the deduction solid."" | metadata: ""meta_talk"": ""Reasoning complete with no contradictions; statement affirmed as True."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn5: ""Gary is big from being cold and young, and big+young implies nice. He "" | metadata: ""meta_talk"": ""No additional meta needed; reasoning confirms no contradictions."", ""schema_retries"": ""0""
+]"
+258482,140,True,True,24.1211,0.0025,0.0025,"models=x-ai/grok-4.1-fast
+expected_length=162
+dataset=proofwriter
+aborted=False
+reasoning=Bob is kind (given). Kind things are nice (rule d), so Bob is nice. Nice things are smart, so Bob is smart. No contradictions arise, so the 
+
+chunks=[
+    x-ai/grok-4.1-fast_Turn1: ""Bob is kind (given). Kind things are nice (rule d), so Bob is nice. Ni"",
+    x-ai/grok-4.1-fast_Turn2: ""ce things are smart, so Bob is smart. No contradictions arise, so the "" | metadata: ""meta_talk"": """", ""schema_retries"": ""0""
+]"
+267587,336,False,False,126.3293,0.0060,0.0060,"models=x-ai/grok-4.1-fast
+expected_length=350
+dataset=proofwriter
+aborted=False
+
+reasoning=### Explanation
+The bald eagle (BE) is cold (given fact).  
+Rule F states: if someone is cold then they see the bald eagle. Thus BE sees BE,which contradicts the statement. Therefore, the statement is False. No additional facts or rules imply BE does not see itself.Thus, the bald eagle sees itself, contradicting the statement. ANSWER[
+
+chunks=[
+    x-ai/grok-4.1-fast_Turn1: ""### Explanation\nThe bald eagle (BE) is cold (given fact).  \nRule F sta"",
+    x-ai/grok-4.1-fast_Turn2: ""tes: if someone is cold then they see the bald eagle. Thus BE sees BE,"" | metadata: ""meta_talk"": ""Continuing reasoning from truncation. Will build to conclusion."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn3: ""which contradicts the statement. Therefore, the statement is False."" | metadata: ""meta_talk"": ""Final segment completing the proof of contradiction."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn4: """" | metadata: ""meta_talk"": ""Reasoning complete with direct contradiction established; no further extension needed."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn5: """" | metadata: ""meta_talk"": ""Reasoning complete with no further implications needed; the direct contradiction confirms the verdict."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn6: "" No additional facts or rules imply BE does not see itself."" | metadata: ""meta_talk"": ""Extending to confirm no other rules override the direct contradiction."", ""schema_retries"": ""0"",
+    x-ai/grok-4.1-fast_Turn7: ""Thus, the bald eagle sees itself, contradicting the statement. ANSWER["" | metadata: ""meta_talk"": ""No additional reasoning needed; prior logic holds."", ""schema_retries"": ""0""
+]"

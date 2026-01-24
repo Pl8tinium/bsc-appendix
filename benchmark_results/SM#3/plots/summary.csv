@@ -1,0 +1,5 @@
+run,models_1,models_2,models_3,accuracy_1,accuracy_2,accuracy_3,delta12,delta23,delta23_pct,summary_n_runs,summary_delta23_pct_mean,summary_delta23_pct_median,summary_delta23_pct_weighted_mean
+#1,qwen/qwen3-235b-a22b-2507,deepseek/deepseek-v3.1-terminus,deepseek/deepseek-v3.1-terminus & qwen/qwen3-235b-a22b-2507,0.875,0.9,0.8,0.025000000000000022,-0.09999999999999998,-399.99999999999955,,,,
+#2,qwen/qwen3-235b-a22b-2507,deepseek/deepseek-v3.1-terminus,deepseek/deepseek-v3.1-terminus & qwen/qwen3-235b-a22b-2507,0.9,0.925,0.875,0.025000000000000022,-0.050000000000000044,-200.0,,,,
+#3,qwen/qwen3-235b-a22b-2507,deepseek/deepseek-v3.1-terminus,deepseek/deepseek-v3.1-terminus & qwen/qwen3-235b-a22b-2507,0.775,0.875,0.9,0.09999999999999998,0.025000000000000022,25.00000000000003,,,,
+OVERALL,,,,,,,,,,3.0,-191.66666666666652,-200.0,-83.33333333333333

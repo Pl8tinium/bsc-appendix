@@ -1,0 +1,7 @@
+run,models_1,models_2,models_3,accuracy_1,accuracy_2,accuracy_3,delta12,delta23,delta23_pct,summary_n_runs,summary_delta23_pct_mean,summary_delta23_pct_median,summary_delta23_pct_weighted_mean
+#1,openai/gpt-5-mini,x-ai/grok-4-fast,x-ai/grok-4-fast & openai/gpt-5-mini,0.67,0.68,0.65,0.010000000000000009,-0.030000000000000027,-300.0,,,,
+#2,mistralai/mistral-large-2512,deepseek/deepseek-v3.2-exp,deepseek/deepseek-v3.2-exp & mistralai/mistral-large-2512,0.65,0.775,0.8,0.125,0.025000000000000022,20.000000000000018,,,,
+#3,openai/gpt-5-nano,openai/gpt-oss-120b:exacto,openai/gpt-oss-120b:exacto & openai/gpt-5-nano,0.68,0.8,0.88,0.12,0.07999999999999996,66.66666666666664,,,,
+#4,z-ai/glm-4.7,deepseek/deepseek-v3.2,deepseek/deepseek-v3.2 & z-ai/glm-4.7,0.65,0.775,0.75,0.125,-0.025000000000000022,-20.000000000000018,,,,
+#5,z-ai/glm-4.7,deepseek/deepseek-v3.2,deepseek/deepseek-v3.2 & z-ai/glm-4.7,0.6,0.6,0.65,0.0,0.050000000000000044,,,,,
+OVERALL,,,,,,,,,,4.0,-58.33333333333335,0.0,13.15789473684209

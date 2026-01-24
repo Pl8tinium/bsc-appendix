@@ -1,0 +1,41 @@
+sample_index,output_length,prediction,true_answer,latency,theoretic_cost,actual_cost,metadata
+0,2585,Mackenzie,Mackenzie,13.2126,0.0070,0.0070,model=openai/gpt-4.1|dataset=murder_mysteries
+1,1907,Ana Diaz,Ana,11.5720,0.0058,0.0058,model=openai/gpt-4.1|dataset=murder_mysteries
+2,2385,Harry is the most likely murderer.,Harry,22.7899,0.0064,0.0064,model=openai/gpt-4.1|dataset=murder_mysteries
+3,2326,Harry,Rosemary,13.1037,0.0065,0.0065,model=openai/gpt-4.1|dataset=murder_mysteries
+4,2607,Emma is the most likely murderer.,Amelia,11.0179,0.0066,0.0066,model=openai/gpt-4.1|dataset=murder_mysteries
+5,2221,Emma,Emma,12.2314,0.0063,0.0063,model=openai/gpt-4.1|dataset=murder_mysteries
+6,1736,Nelson,Terrance,10.2286,0.0052,0.0052,model=openai/gpt-4.1|dataset=murder_mysteries
+7,1478,Nelson,Nelson,8.3534,0.0046,0.0046,model=openai/gpt-4.1|dataset=murder_mysteries
+8,2400,Julia,Ronald,12.1082,0.0064,0.0064,model=openai/gpt-4.1|dataset=murder_mysteries
+9,2357,Julia,Julia,14.4658,0.0060,0.0060,model=openai/gpt-4.1|dataset=murder_mysteries
+10,2534,Vivian,Unity,24.3900,0.0067,0.0067,model=openai/gpt-4.1|dataset=murder_mysteries
+11,2111,Vivian,Vivian,10.8777,0.0063,0.0063,model=openai/gpt-4.1|dataset=murder_mysteries
+12,2186,Milton,Milton,11.2005,0.0064,0.0064,model=openai/gpt-4.1|dataset=murder_mysteries
+13,2529,Emma,Emma,10.1041,0.0066,0.0066,model=openai/gpt-4.1|dataset=murder_mysteries
+14,2501,Lance,Lance,14.9553,0.0064,0.0064,model=openai/gpt-4.1|dataset=murder_mysteries
+15,2463,Harper,Harper,12.6660,0.0065,0.0065,model=openai/gpt-4.1|dataset=murder_mysteries
+16,2519,Ruby,Ruby,14.4092,0.0070,0.0070,model=openai/gpt-4.1|dataset=murder_mysteries
+17,2555,Roscoe,Roscoe,12.3496,0.0068,0.0068,model=openai/gpt-4.1|dataset=murder_mysteries
+18,2248,Angela,Angela,11.3532,0.0062,0.0062,model=openai/gpt-4.1|dataset=murder_mysteries
+19,2025,Angela is the most likely murderer.,Roy,10.7868,0.0057,0.0057,model=openai/gpt-4.1|dataset=murder_mysteries
+20,2600,Ervin,Ervin,14.8847,0.0068,0.0068,model=openai/gpt-4.1|dataset=murder_mysteries
+21,2374,Andrew,Andrew,9.1223,0.0064,0.0064,model=openai/gpt-4.1|dataset=murder_mysteries
+22,2051,Oscar,Oscar,12.8445,0.0057,0.0057,model=openai/gpt-4.1|dataset=murder_mysteries
+23,1936,Brianna,Brianna,11.2208,0.0060,0.0060,model=openai/gpt-4.1|dataset=murder_mysteries
+24,2023,Jay,Jay,15.5369,0.0057,0.0057,model=openai/gpt-4.1|dataset=murder_mysteries
+25,1996,Autumn,Autumn,10.4139,0.0059,0.0059,model=openai/gpt-4.1|dataset=murder_mysteries
+26,2026,Anthony,Anthony,13.3701,0.0056,0.0056,model=openai/gpt-4.1|dataset=murder_mysteries
+27,1981,Max is the most likely murderer.,Max,15.0066,0.0060,0.0060,model=openai/gpt-4.1|dataset=murder_mysteries
+28,2487,Xochitl,Xochitl,16.4125,0.0063,0.0063,model=openai/gpt-4.1|dataset=murder_mysteries
+29,2745,Martin,Martin,12.8937,0.0069,0.0069,model=openai/gpt-4.1|dataset=murder_mysteries
+30,2488,Willard,Willard,28.2177,0.0050,0.0050,model=openai/gpt-4.1|dataset=murder_mysteries
+31,2315,Miles,Miles,9.6935,0.0064,0.0064,model=openai/gpt-4.1|dataset=murder_mysteries
+32,2899,Hugo,Hugo,16.1800,0.0075,0.0075,model=openai/gpt-4.1|dataset=murder_mysteries
+33,1967,Maria,Maria,11.3610,0.0060,0.0060,model=openai/gpt-4.1|dataset=murder_mysteries
+34,2390,Paige,Paige,11.9514,0.0060,0.0060,model=openai/gpt-4.1|dataset=murder_mysteries
+35,2064,Alicia,Alicia,9.6533,0.0059,0.0059,model=openai/gpt-4.1|dataset=murder_mysteries
+36,2357,Jay is the most likely murderer.,Jay,15.5063,0.0065,0.0065,model=openai/gpt-4.1|dataset=murder_mysteries
+37,1967,Karl,Karl,11.6357,0.0056,0.0056,model=openai/gpt-4.1|dataset=murder_mysteries
+38,2183,Fred,Fred,13.6424,0.0057,0.0057,model=openai/gpt-4.1|dataset=murder_mysteries
+39,2479,Fred,Imogen,17.2456,0.0064,0.0064,model=openai/gpt-4.1|dataset=murder_mysteries

@@ -1,0 +1,5 @@
+run,models_1,models_2,models_3,accuracy_1,accuracy_2,accuracy_3,delta12,delta23,delta23_pct,summary_n_runs,summary_delta23_pct_mean,summary_delta23_pct_median,summary_delta23_pct_weighted_mean
+#1,deepseek/deepseek-v3.2,openai/gpt-oss-20b,deepseek/deepseek-v3.2 & openai/gpt-oss-20b,0.9,0.95,0.925,0.04999999999999993,-0.02499999999999991,-49.999999999999886,,,,
+#2,qwen/qwq-32b,deepseek/deepseek-v3.2,deepseek/deepseek-v3.2 & qwen/qwq-32b,0.9,0.9,0.85,0.0,-0.050000000000000044,,,,,
+#3,qwen/qwen3-30b-a3b-instruct-2507,x-ai/grok-4.1-fast,x-ai/grok-4.1-fast & qwen/qwen3-30b-a3b-instruct-2507,0.675,0.975,0.9,0.29999999999999993,-0.07499999999999996,-24.999999999999993,,,,
+OVERALL,,,,,,,,,,2.0,-37.49999999999994,-37.49999999999994,-28.571428571428548

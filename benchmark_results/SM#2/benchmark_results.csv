@@ -1,0 +1,96 @@
+run,timestamp,accuracy,precision,recall,f1,samples,benchmark_name,dataset_name,test_name,models,evaluation_model,aborted_count,avg_latency,total_time,theoretic_cost,actual_cost,metadata
+#1,2025-11-19T21:32:14,?,,,,100,TAUR-Lab/MuSR,murder_mysteries,test_unmodified_reply,moonshotai/kimi-k2-0905:exacto,,?,?,?,?,?,?
+#1,2025-11-20T12:22:39,0.59,,,,100,TAUR-Lab/MuSR,murder_mysteries,test_single_model_structured_output_framework,meta-llama/llama-3.1-8b-instruct,openai/gpt-4.1,0,1344.56,4930.05,0.1213,0.2831,"StructuredOutputFrameworkParams=[
+single_output_char_limit: 70
+additional_tolerated_percentage: 25
+conformity_retry_count: 150
+]
+dataset_seed=1337"
+#1,2025-11-19T23:52:59,0.75,,,,100,TAUR-Lab/MuSR,murder_mysteries,test_single_model_structured_output_framework,deepseek/deepseek-v3.2-exp,openai/gpt-4.1,0,568.16,1528.22,1.3238,1.5549,"StructuredOutputFrameworkParams=[
+single_output_char_limit: 70
+additional_tolerated_percentage: 25
+conformity_retry_count: 150
+]
+dataset_seed=1337"
+#1,2025-11-20T16:27:45,0.71,,,,100,TAUR-Lab/MuSR,murder_mysteries,test_duo_model_structured_output_framework,deepseek/deepseek-v3.2-exp & meta-llama/llama-3.1-8b-instruc,openai/gpt-4.1,0,767.89,2784.34,0.647,0.8676,"StructuredOutputFrameworkParams=[
+single_output_char_limit: 70
+additional_tolerated_percentage: 25
+conformity_retry_count: 150
+]
+dataset_seed=1337"
+#2,2026-01-02T17:26:54,0.875,,,,40,TAUR-Lab/MuSR,murder_mysteries,test_unmodified_reply,deepseek/deepseek-v3.1-terminus,,0,10.92,34.61,0.0209,0.0209,dataset_seed=13371337
+#2,2026-01-06T19:15:35,0.725,,,,40,TAUR-Lab/MuSR,murder_mysteries,test_single_model_structured_output_framework,qwen/qwen3-235b-a22b-2507,openai/gpt-5.2-chat,0,215.46,1003.76,0.1985,0.2906,"StructuredOutputFrameworkParams=[
+single_output_char_limit: 70
+additional_tolerated_percentage: 25
+conformity_retry_count: 150
+]
+dataset_seed=13371337"
+#2,2026-01-06T18:37:43,0.825,,,,40,TAUR-Lab/MuSR,murder_mysteries,test_single_model_structured_output_framework,deepseek/deepseek-v3.1-terminus,openai/gpt-5.2-chat,0,3451.2,3521.76,0.337,0.452,"StructuredOutputFrameworkParams=[
+single_output_char_limit: 70
+additional_tolerated_percentage: 25
+conformity_retry_count: 150
+]
+dataset_seed=13371337"
+#2,2026-01-06T18:55:34,0.825,,,,40,TAUR-Lab/MuSR,murder_mysteries,test_duo_model_structured_output_framework,deepseek/deepseek-v3.1-terminus & qwen/qwen3-235b-a22b-2507,openai/gpt-5.2-chat,0,139.88,985.7,0.2578,0.3546,"StructuredOutputFrameworkParams=[
+single_output_char_limit: 70
+additional_tolerated_percentage: 25
+conformity_retry_count: 150
+]
+dataset_seed=13371337"
+#3,2026-01-06T19:41:28,0.725,,,,40,TAUR-Lab/MuSR,murder_mysteries,test_unmodified_reply,deepseek/deepseek-v3.1-terminus,,0,13.83,34.83,0.0219,0.0219,dataset_seed=777
+#3,2026-01-06T20:48:29,0.625,,,,40,TAUR-Lab/MuSR,murder_mysteries,test_single_model_structured_output_framework,deepseek/deepseek-v3.1-terminus,openai/gpt-5.2-chat,0,94.43,142.06,0.3241,0.4486,"StructuredOutputFrameworkParams=[
+single_output_char_limit: 70
+additional_tolerated_percentage: 25
+conformity_retry_count: 150
+]
+dataset_seed=777"
+#3,2026-01-06T20:38:18,0.65,,,,40,TAUR-Lab/MuSR,murder_mysteries,test_single_model_structured_output_framework,qwen/qwen3-235b-a22b-2507,openai/gpt-5.2-chat,0,203.21,1092.46,0.2142,0.3141,"StructuredOutputFrameworkParams=[
+single_output_char_limit: 70
+additional_tolerated_percentage: 25
+conformity_retry_count: 150
+]
+dataset_seed=777"
+#3,2026-01-06T20:17:58,0.7,,,,40,TAUR-Lab/MuSR,murder_mysteries,test_duo_model_structured_output_framework,deepseek/deepseek-v3.1-terminus & qwen/qwen3-235b-a22b-2507,openai/gpt-5.2-chat,0,176.43,1055.79,0.2817,0.4024,"StructuredOutputFrameworkParams=[
+single_output_char_limit: 70
+additional_tolerated_percentage: 25
+conformity_retry_count: 150
+]
+dataset_seed=777"
+#4,2026-01-06T20:56:47,0.8,,,,40,TAUR-Lab/MuSR,murder_mysteries,test_unmodified_reply,deepseek/deepseek-v3.1-terminus,,0,10.87,21.5,0.0226,0.0226,dataset_seed=7771234
+#4,2026-01-06T21:43:17,0.625,,,,40,TAUR-Lab/MuSR,murder_mysteries,test_single_model_structured_output_framework,qwen/qwen3-235b-a22b-2507,openai/gpt-5.2-chat,0,229.44,1364.94,0.2013,0.3008,"StructuredOutputFrameworkParams=[
+single_output_char_limit: 70
+additional_tolerated_percentage: 25
+conformity_retry_count: 150
+]
+dataset_seed=7771234"
+#4,2026-01-07T19:53:17,0.775,,,,40,TAUR-Lab/MuSR,murder_mysteries,test_single_model_structured_output_framework,deepseek/deepseek-v3.1-terminus,openai/gpt-5.2-chat,0,97.5,147.68,0.338,0.4517,"StructuredOutputFrameworkParams=[
+single_output_char_limit: 70
+additional_tolerated_percentage: 25
+conformity_retry_count: 150
+]
+dataset_seed=7771234"
+#4,2026-01-06T21:19:39,0.75,,,,40,TAUR-Lab/MuSR,murder_mysteries,test_duo_model_structured_output_framework,deepseek/deepseek-v3.1-terminus & qwen/qwen3-235b-a22b-2507,openai/gpt-5.2-chat,0,144.08,1032.85,0.2735,0.3722,"StructuredOutputFrameworkParams=[
+single_output_char_limit: 70
+additional_tolerated_percentage: 25
+conformity_retry_count: 150
+]
+dataset_seed=7771234"
+#5,2026-01-07T20:05:37,0.7,,,,40,TAUR-Lab/MuSR,murder_mysteries,test_unmodified_reply,deepseek/deepseek-v3.1-terminus,,0,11.42,18.41,0.0224,0.0224,dataset_seed=123123123
+#5,2026-01-07T20:35:24,0.55,,,,40,TAUR-Lab/MuSR,murder_mysteries,test_single_model_structured_output_framework,qwen/qwen3-235b-a22b-2507,openai/gpt-5.2-chat,0,275.22,1066.39,0.2016,0.3176,"StructuredOutputFrameworkParams=[
+single_output_char_limit: 70
+additional_tolerated_percentage: 25
+conformity_retry_count: 150
+]
+dataset_seed=123123123"
+#5,2026-01-07T20:15:58,0.675,,,,40,TAUR-Lab/MuSR,murder_mysteries,test_single_model_structured_output_framework,deepseek/deepseek-v3.1-terminus,openai/gpt-5.2-chat,0,105.52,213.68,0.331,0.4439,"StructuredOutputFrameworkParams=[
+single_output_char_limit: 70
+additional_tolerated_percentage: 25
+conformity_retry_count: 150
+]
+dataset_seed=123123123"
+#5,2026-01-07T21:55:00,0.65,,,,40,TAUR-Lab/MuSR,murder_mysteries,test_duo_model_structured_output_framework,deepseek/deepseek-v3.1-terminus & qwen/qwen3-235b-a22b-2507,openai/gpt-5.2-chat,0,121.21,213.36,0.2913,0.4003,"StructuredOutputFrameworkParams=[
+single_output_char_limit: 70
+additional_tolerated_percentage: 25
+conformity_retry_count: 150
+]
+dataset_seed=123123123"

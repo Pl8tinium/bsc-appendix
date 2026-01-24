@@ -1,0 +1,7 @@
+run,models_1,models_2,models_3,accuracy_1,accuracy_2,accuracy_3,delta12,delta23,delta23_pct,summary_n_runs,summary_delta23_pct_mean,summary_delta23_pct_median,summary_delta23_pct_weighted_mean
+#1,google/gemini-2.5-flash-lite-preview-09-2025,openai/gpt-4.1,openai/gpt-4.1 & google/gemini-2.5-flash-lite-preview-09-2025,0.475,0.75,0.7,0.275,-0.050000000000000044,-18.181818181818198,,,,
+#2,google/gemini-2.5-flash-lite-preview-09-2025,openai/gpt-4.1,openai/gpt-4.1 & google/gemini-2.5-flash-lite-preview-09-2025,0.725,0.825,0.775,0.09999999999999998,-0.04999999999999993,-49.99999999999994,,,,
+#3,google/gemini-2.5-flash-lite-preview-09-2025,openai/gpt-4.1,openai/gpt-4.1 & google/gemini-2.5-flash-lite-preview-09-2025,0.6,0.775,0.725,0.17500000000000004,-0.050000000000000044,-28.57142857142859,,,,
+#4,google/gemini-2.5-flash-lite-preview-09-2025,openai/gpt-4.1,openai/gpt-4.1 & google/gemini-2.5-flash-lite-preview-09-2025,0.6333,0.7667,0.6333,0.13340000000000007,-0.13340000000000007,-100.0,,,,
+#5,qwen/qwen3-30b-a3b-instruct-2507,openai/gpt-4.1,openai/gpt-4.1 & qwen/qwen3-30b-a3b-instruct-2507,0.5667,0.7667,0.6667,0.20000000000000007,-0.10000000000000009,-50.00000000000002,,,,
+OVERALL,,,,,,,,,,5.0,-49.350649350649356,-49.99999999999994,-43.400498075616945

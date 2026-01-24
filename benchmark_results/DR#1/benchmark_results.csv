@@ -1,0 +1,7 @@
+Run,timestamp,accuracy,precision,recall,f1,samples,benchmark_name,dataset_name,test_name,models,evaluation_model,aborted_count,avg_latency,total_time,theoretic_cost,actual_cost,metadata
+#1,2026-01-11T12:32:34,0.575,,,,40,TAUR-Lab/MuSR,murder_mysteries,test_direct_reply,qwen/qwq-32b,,0,29.41,34.77,0.0076,0.0076,dataset_seed=89898989
+#1,2026-01-11T12:37:18,0.625,,,,40,TAUR-Lab/MuSR,murder_mysteries,test_unmodified_reply,qwen/qwq-32b,,0,51.85,139.08,0.0087,0.0087,dataset_seed=89898989
+#2,2026-01-11T12:39:09,0.675,,,,40,TAUR-Lab/MuSR,murder_mysteries,test_direct_reply,qwen/qwq-32b,,0,21.33,49.24,0.0078,0.0078,dataset_seed=77777
+#2,2026-01-11T12:42:03,0.75,,,,40,TAUR-Lab/MuSR,murder_mysteries,test_unmodified_reply,qwen/qwq-32b,,0,46.74,115.46,0,0,dataset_seed=77777
+#3,2026-01-11T12:58:26,0.625,,,,40,TAUR-Lab/MuSR,murder_mysteries,test_direct_reply,openai/gpt-4.1,,0,0.91,1.71,0.1058,0.1058,dataset_seed=789789
+#3,2026-01-11T12:59:03,0.7,,,,40,TAUR-Lab/MuSR,murder_mysteries,test_unmodified_reply,openai/gpt-4.1,,0,8.67,13.07,0.2534,0.2534,dataset_seed=789789
